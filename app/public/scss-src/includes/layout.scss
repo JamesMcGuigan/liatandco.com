@@ -1,6 +1,6 @@
 @import "variables";
 
-.body-column {
+.content {
   max-width: $page-width;
   margin: auto;
 }
@@ -9,21 +9,30 @@
 html, body {
   margin: 0;
   padding: 0;
+
+  font-family: Arial,​Helvetica,​sans-serif;
+  font-size: 20px;
+
 }
 
 h1 {
   font-size: 90px;
   font-family: lobster,cursive;
+  font-weight: bold;
   padding: 20px 0 10px 0;
   margin:  0;
+  white-space: nowrap;
 }
 h2 {
   font-size: 48px;
   font-family: jura,​sans-serif;
-  padding: 10px;
+  padding: 10px 0;
   margin:  0;
+  white-space: nowrap;
 }
 
-
+p {
+  padding: 1em 0;
+}
 
 

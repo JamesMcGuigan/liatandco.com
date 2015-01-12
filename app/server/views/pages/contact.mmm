@@ -1,0 +1,14 @@
+<div class="page_contact">
+    <div class="content grid">
+
+        <img src="/img/pages/connect.jpg" class="grid__item five-eighths"><!--
+        --><div class="grid__item three-eighths">
+            <h2>Contact</h2>
+            <h1>Liat & Co</h1>
+            <p>
+            <strong>T:</strong> 07980 903 770<br/>
+            <strong>E:</strong> <a href="mailto:hello@liatandco.com">hello@liatandco.com</a>
+            </p>
+        </div>
+    </div>
+</div>

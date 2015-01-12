@@ -1,4 +1,4 @@
-<div class="body-column">
+<div class="content">
     <div class="header">
         <h1>Liat &amp; Co.</h1>
 
@@ -11,7 +11,7 @@
         <ul class="navmenu">
             <li><a href="/whatwedo">What we do. Why we do it.</a></li>
             <li><a href="/portfolio">Portfolio</a></li>
-            <li><a href="/connect">Connect</a></li>
+            <li><a href="/contact">Contact</a></li>
         </ul>
         <script>
             $(".navmenu").find("li a").each(function() {

@@ -4,4 +4,4 @@
 <![endif]-->
 
 <script src="/vendor/firebugx/firebugx.js"></script>
-<script src="/bower/jquery-legacy/jquery.js"></script>
+<script src="/bower/jquery-legacy/dist/jquery.js"></script>

@@ -67,8 +67,8 @@ module.exports = function(app){
         var render = renderParams(request);
         response.render("pages/portfolio", render);
     });
-    app.get("/connect", function(request, response) {
+    app.get("/contact", function(request, response) {
         var render = renderParams(request);
-        response.render("pages/connect", render);
+        response.render("pages/contact", render);
     });
 };

@@ -1,5 +1,5 @@
 {
-  "name":    "Infographic Generator",
+  "name":    "Liat & Co",
   "version": "1.0.0",
   "main":    "",
   "ignore": [
@@ -16,33 +16,18 @@
     "tests"
   ],
   "dependencies": {
-    "angular":             "*",
-    "angular-i18n":        "*",
-    "angular-resource":    "*",
-    "angular-route":       "*",
-    "angulartics":         "*",
-    "array-generics":      "plusdude/array-generics",
-    "bootstrap-css":       "*",
-    "bootstrap-scss":      "twbs/bootstrap-sass",
-    "css3pie":             "*",
-    "d3":                  "*",
+    "csswizardry-grids":   "*",
     "datejs":              "*",
     "fastclick":           "*",
     "html5shiv":           "*",
     "jquery":              "jquery#2",
-    "jquery-easing":       "*",
+    "jquery-legacy":       "jquery#1",
     "jquery-or":           "byrichardpowell/jquery-or",
-    "jquery-equal-height": "JamesMcGuigan/jquery-equal-height",
-    "jquery-form":         "*",
-    "jquery-legacy":       "jquery#1.10",
     "jquery-placeholder":  "*",
     "modernizr":           "*",
     "nwmatcher":           "*",
-    "ngstorage":           "*",
     "reset-css":           "*",
-    "respond":             "*",
-    "selectivizr":         "*",
-    "underscore":          "*"
+    "lodash":              "*"
   },
   "devDependencies": {
     "karma":               "*",
@@ -52,22 +37,11 @@
      "iepngfix":          "http://www.twinhelix.com/css/iepngfix/iepngfix.zip"
   },
   "unload": {
-    "angular":             "*",
-    "foundation-5":        "foundation#5",
-    "foundation-3":        "http://foundation.zurb.com/cdn/releases/foundation-3.2.5.zip",
-    "jquery-ui":           "*",
-    "jquery.cookie":       "*",
-    "jquery.easing":       "*",
-    "parallax":            "*",
-    "requirejs":           "*",
-    "requirejs-plugins":   "*",
-    "jquery.autocomplete": "devbridge/jQuery-Autocomplete#1.2.7",
-    "pngfix":              "http://perishablepress.com/wp/wp-content/online/code/png-htc-fix.zip"
   },
   "authors": [
     "James McGuigan <james.mcguigan.personal@gmail.com>"
   ],
-  "license":  "Copyright James McGuigan",
+  "license":  "Copyright James McGuigan / Liat Rosenthal",
   "homepage": "liatandco.jamesmcguigan.com",
   "private":  false
 }
