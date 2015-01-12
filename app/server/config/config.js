@@ -18,8 +18,8 @@ var config = {
     web: {
         host: "https://localhost:4000",
         port: {
-            http:  4000,
-            https: 4001
+            http:  3003,
+            https: 3004
         }
     },
 
@@ -64,8 +64,8 @@ module.exports = {
         web: {
             host: "http://localhost:4400",
             port: {
-                http:  4400,
-                https: 4401
+                http:  3303,
+                https: 3303
             }
         }
     }),
@@ -73,8 +73,8 @@ module.exports = {
         web: {
             host: "http://localhost:4000",
             port: {
-                http:  4000,
-                https: 4001
+                http:  3003,
+                https: 3004
             }
         }
     }),
@@ -83,8 +83,8 @@ module.exports = {
         web: {
             host: "http://staging.liatandco.jamesmcguigan.com",
             port: {
-                http:  4000,
-                https: 4001
+                http:  3003,
+                https: 3004
             }
         }
     }),
@@ -93,8 +93,8 @@ module.exports = {
         web: {
             host: "http://liatandco.jamesmcguigan.com",
             port: {
-                http:  4000,
-                https: 4001
+                http:  3003,
+                https: 3004
             }
         }
     })

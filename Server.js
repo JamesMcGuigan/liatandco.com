@@ -1,5 +1,7 @@
 process.argv.forEach(function (value, index, array) {
-    if( value.match(/^NODE_ENV=/) ) { process.env.NODE_ENV = value.replace(/^NODE_ENV=/, ''); }
+    if( value.match(/^NODE_ENV=/)   ) { process.env.NODE_ENV   = value.replace(/^NODE_ENV=/,   ''); }
+    if( value.match(/^PORT_HTTP=/)  ) { process.env.PORT_HTTP  = value.replace(/^PORT_HTTP=/,  ''); }
+    if( value.match(/^PORT_HTTPS=/) ) { process.env.PORT_HTTPS = value.replace(/^PORT_HTTPS=/, ''); }
 });
 process.env.NODE_ENV = process.env.NODE_ENV || "development";
 
@@ -94,8 +96,8 @@ process.on('uncaughtException', function (err) {
 
 
 var servers = [];
-if( config.web.port.https ) { servers.push( https.createServer(config.sslcert, app).listen(config.web.port.https) ); }
-if( config.web.port.http  ) { servers.push( http.createServer(app).listen(config.web.port.http) );                   }
+//if( config.web.port.https ) { servers.push( https.createServer(config.sslcert, app).listen(config.web.port.https) ); }
+if( config.web.port.http  ) { servers.push( http.createServer(app).listen(config.web.port.http) );  }
 
 console.info(config.name, ' - listening on ports ', JSON.stringify(config.web.port), config.web.host, " | NODE_ENV: ", process.env.NODE_ENV );
 
