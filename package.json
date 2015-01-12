@@ -4,12 +4,12 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/JamesMcGuigan/node-archetype.git"
+    "url": "https://github.com/JamesMcGuigan/liatandco.com.git"
   },
   "licenses": [
     {
       "type": "GPL3",
-      "url": "https://bitbucket.org/JamesMcGuigan/node-archetype/blob/master/LICENSE"
+      "url": "https://bitbucket.org/JamesMcGuigan/liatandco.com/blob/master/LICENSE"
     }
   ],
   "scripts": {

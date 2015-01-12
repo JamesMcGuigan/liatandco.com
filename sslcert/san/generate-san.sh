@@ -1,7 +1,7 @@
 #!/bin/bash -x
 # @link http://techbrahmana.blogspot.co.uk/2013/10/creating-wildcard-self-signed.html
 
-# NOTE: Copies of node-archetype.san.key/node-archetype.san.crt have been copied to /puppet/modules/sslcerts/files
+# NOTE: Copies of liatandco.san.key/liatandco.san.crt have been copied to /puppet/modules/sslcerts/files
 
 cd    "$(dirname "$0")"
 
@@ -11,18 +11,18 @@ State=London
 City=London
 Organization="Crystalline Technologies"
 Section=""
-FQDN=node-archetype
+FQDN=liatandco.com
 Email=james.mcguigan@gmail.com
 
 
 ## Generate Private Key
-openssl genrsa -des3 -passout pass:foobar -out node-archetype.san.key.password 2048
+openssl genrsa -des3 -passout pass:foobar -out liatandco.san.key.password 2048
 
 ##  Convert the private key to an unencrypted format
-openssl rsa -passin pass:foobar -in node-archetype.san.key.password -out node-archetype.san.key
+openssl rsa -passin pass:foobar -in liatandco.san.key.password -out liatandco.san.key
 
 ##  Create the certificate signing request
-openssl req -new -key node-archetype.san.key -out node-archetype.san.csr <<EOF
+openssl req -new -key liatandco.san.key -out liatandco.san.csr <<EOF
 $Country
 $State
 $City
@@ -35,13 +35,13 @@ $Email
 EOF
 
 ## Sign the certificate with extensions
-openssl x509 -req -extensions v3_req -days 365 -in node-archetype.san.csr -signkey node-archetype.san.key -out node-archetype.san.crt -extfile node-archetype.san.conf
-#    -CA ../rootCA/node-archetype.rootCA.crt -CAkey ../rootCA/node-archetype.rootCA.key -CAcreateserial
+openssl x509 -req -extensions v3_req -days 365 -in liatandco.san.csr -signkey liatandco.san.key -out liatandco.san.crt -extfile liatandco.san.conf
+#    -CA ../rootCA/liatandco.com.rootCA.crt -CAkey ../rootCA/liatandco.com.rootCA.key -CAcreateserial
 
 #
-#openssl genrsa             -out node-archetype.san.key 2048
-#openssl req    -new -nodes -out node-archetype.san.csr -config node-archetype.san.conf
-#openssl x509   -req -CA ../rootCA/node-archetype.rootCA.pem -CAkey ../rootCA/node-archetype.rootCA.key -CAcreateserial -in node-archetype.san.csr -out node-archetype.san.crt -days 3650
+#openssl genrsa             -out liatandco.san.key 2048
+#openssl req    -new -nodes -out liatandco.san.csr -config liatandco.san.conf
+#openssl x509   -req -CA ../rootCA/liatandco.com.rootCA.pem -CAkey ../rootCA/liatandco.com.rootCA.key -CAcreateserial -in liatandco.san.csr -out liatandco.san.crt -days 3650
 ##end
 
 exit 0

@@ -3,16 +3,16 @@ var path   = require('path');
 var extend = require("node.extend");
 
 var config = {
-    name: 'Node Archetype',
-    access_log: '/var/log/node/node-archetype-access.log',
-    error_log:  '/var/log/node/node-archetype-error.log',
-    debug_log:  '/var/log/node/node-archetype-debug.log',
+    name: 'Liat & Co',
+    access_log: '/var/log/node/liatandco-access.log',
+    error_log:  '/var/log/node/liatandco-error.log',
+    debug_log:  '/var/log/node/liatandco-debug.log',
 
-    db:      'mongodb://localhost/node-archetype',
+    db:      'mongodb://localhost/liatandco',
 
     crudPermissions: {
-        edit: ["node-archetype"],
-        view: ["node-archetype"]
+        edit: ["liatandco"],
+        view: ["liatandco"]
     },
 
     web: {
@@ -24,11 +24,11 @@ var config = {
     },
 
     sslcert: {
-        key:  fs.readFileSync(path.join(__dirname, '../../../sslcert/san/node-archetype.san.key'), 'utf8'),
-        cert: fs.readFileSync(path.join(__dirname, '../../../sslcert/san/node-archetype.san.crt'), 'utf8')
+        key:  fs.readFileSync(path.join(__dirname, '../../../sslcert/san/liatandco.san.key'), 'utf8'),
+        cert: fs.readFileSync(path.join(__dirname, '../../../sslcert/san/liatandco.san.crt'), 'utf8')
     },
     basicAuth: {
-        realm: "Node Archetype",
+        realm: "Liat & Co",
         user:  "Liat",
         pass:  "password"
     },
@@ -60,7 +60,7 @@ var config = {
 
 module.exports = {
     test: extend(true, {}, config, {
-        db: 'mongodb://localhost/node-archetype-test',
+        db: 'mongodb://localhost/liatandco-test',
         web: {
             host: "http://localhost:4400",
             port: {
@@ -79,9 +79,9 @@ module.exports = {
         }
     }),
     staging: extend(true, {}, config, {
-        db: 'mongodb://staging.node-archetype.jamesmcguigan.com/node-archetype',
+        db: 'mongodb://staging.liatandco.jamesmcguigan.com/liatandco',
         web: {
-            host: "http://staging.node-archetype.jamesmcguigan.com",
+            host: "http://staging.liatandco.jamesmcguigan.com",
             port: {
                 http:  4000,
                 https: 4001
@@ -89,9 +89,9 @@ module.exports = {
         }
     }),
     production:  extend(true, {}, config, {
-        db: 'mongodb://node-archetype/node-archetype',
+        db: 'mongodb://liatandco.jamesmcguigan.com/liatandco',
         web: {
-            host: "http://node-archetype.jamesmcguigan.com",
+            host: "http://liatandco.jamesmcguigan.com",
             port: {
                 http:  4000,
                 https: 4001

@@ -76,7 +76,7 @@ app.use(connectDomain()); // allow express to output propper stack traces
 require('./app/server/routes/ajaxRoutes.js')(app);
 require('./app/server/routes/pageRoutes.js')(app);
 require('./app/server/routes/CrudAPIRoutes.js')(app);
-//require('./app/routes/errorRoutes.js')(app);
+//require('./app/server/routes/errorRoutes.js')(app);
 
 
 // Error Handling
