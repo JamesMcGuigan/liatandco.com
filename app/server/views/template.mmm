@@ -31,7 +31,7 @@
     {{> includes/js-includes-head }}
 </head>
 <body lang="{{lang}}" class="menu_section_{{menu_section}}">
-    <div class="container">
+    <div class="sticky-footer-wrapper">
         <div class="template-header">
             {{> section/header}}
         </div>
@@ -40,9 +40,14 @@
             {{> content}}
         </div>
 
-        <div class="template-footer">
-        </div>
+        <div class="sticky-footer-pusher"></div>
     </div>
+    <div class="template-footer">
+        {{> section/footer}}
+    </div>
+
+
+
     <div id="javascript-includes">
         {{> includes/js-includes-foot }}
         {{> includes/js-init }}

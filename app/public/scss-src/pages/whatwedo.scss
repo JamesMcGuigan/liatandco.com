@@ -1,0 +1,102 @@
+.page_whatwedo {
+  margin-top: 1em;
+
+
+  .row_top {
+    //height: 550px;
+    margin-bottom: -40px;
+  }
+  .row_bottom {
+    padding-top: 2em;
+    width: 60%;
+    margin: auto;
+  }
+
+
+  .arrow {
+    width:      275px;
+    height:     175px;
+
+    background: url(/svg/arrow.svg);
+
+    position: absolute;
+    bottom: 0;
+
+    &.arrow-left {
+      left: 50%;
+      transform: translate(-353px, 300px) rotate(115deg)
+    }
+    &.arrow-right {
+      right: 50%;
+      transform: translate(353px, 300px) rotate(65deg)
+    }
+  }
+}
+
+
+.banner {
+  width:      490px;
+  height:     100px;
+
+  margin:      auto;
+
+  color:       #ffffff;
+  font-family: lobster,cursive;
+
+  padding-top: 15px;
+  font-size:   30px;
+  text-align:  center;
+
+  background: url(/svg/banner.svg);
+}
+
+.circle {
+  position: relative;
+  display: flex;
+  background: black;
+  color: #333;
+  text-align: center;
+
+  border-radius: 50%;
+  margin: auto;
+
+  align-items: center;
+  justify-content: center;
+
+  .inner {
+    flex: 0 0 auto;
+    max-width: 50%;
+  }
+
+
+  &.gradient {
+    background-image: radial-gradient(circle farthest-corner at 47px 47px, yellow 0%, orange 100%, red 95%);
+  }
+
+  &.spinning {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: spin;
+    animation-timing-function: linear;
+  }
+
+  ul {
+    list-style-type: disc;
+  }
+}
+
+.circle-top {
+  width:  300px;
+  height: 300px;
+  .inner { max-width: 50%; }
+}
+.circle-left {
+  width:  490px;
+  height: 490px;
+  .inner { max-width: 80%; }
+}
+.circle-right {
+  width:  490px;
+  height: 490px;
+  .inner { max-width: 80%; }
+}

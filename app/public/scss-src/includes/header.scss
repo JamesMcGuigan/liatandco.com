@@ -1,9 +1,8 @@
+.template-footer,
 .template-header {
   background: black;
   color: white;
   text-align: center;
-
-
 
   ul {
     display: flex;
@@ -11,7 +10,7 @@
     width: 100%;
     list-style-type: none;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 16px;
     padding: 1em;
 
     li {
@@ -19,10 +18,12 @@
       text-align: center;
 
       margin: 0 5px;
-      padding: 1em;
       border-top: 3px solid #666666;
 
       a {
+        display: inline-block;
+        width: 100%;
+        padding: 1em;
         color: #666666;
         text-decoration: none;
       }
@@ -31,6 +32,12 @@
       border-top: 5px solid #AFA99E;
       a {
         color: #AFA99E;
+      }
+    }
+    li:hover {
+      border-top: 5px solid #FFFFFF;
+      a {
+        color: #FFFFFF;
       }
     }
   }
