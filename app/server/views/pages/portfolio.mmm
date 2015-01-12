@@ -1,1 +1,113 @@
-Portfolio
+<div class="page_portfolio content">
+    <h3>Festivals, Events and Creative Programming</h3>
+    <ul class="portfolio">
+        <li style="background-image:url(/img/portfolio/thumbnails/LittleBookniks.jpg); background-size: 300px 200px;">
+            <div class="overlay">
+                <div class="project">Little Bookniks</div>
+            </div>
+        </li>
+        <li style="background-image:url(/img/portfolio/thumbnails/Jewish_East_End_Extravaganza.jpg)">
+            <div class="overlay">
+                <div class="project">Jewish East End Extravaganza</div>
+            </div>
+        </li>
+        <li style="background-image:url(/img/portfolio/thumbnails/beyond.jpg); background-size: 300px 150px;">
+            <div class="overlay">
+                <div class="project">Beyond</div>
+            </div>
+        </li>
+        <li style="background-image:url(/img/portfolio/thumbnails/unknown.jpg)">
+            <div class="overlay">
+                <div class="project">Unknown</div>
+            </div>
+        </li>
+        <li style="background-image:url(/img/portfolio/thumbnails/JW3.jpg)">
+            <div class="overlay">
+                <div class="project">JW3</div>
+            </div>
+        </li>
+    </ul>
+
+
+    <h3>Project Management</h3>
+    <ul class="portfolio">
+        <li style="background-image:url(/img/portfolio/thumbnails/EastSide.jpg)" class="nostretch">
+            <div class="overlay">
+                <div class="project">Eastside Educational Trust</div>
+            </div>
+        </li>
+        <li style="background-image:url(/img/portfolio/thumbnails/The_House_Of_Fairy_Tales.jpg)">
+            <div class="overlay">
+                <div class="project">The House of Fairy Tales</div>
+                <div class="role">Role: Project Manager</div>
+            </div>
+        </li>
+        <li style="background-image:url(/img/portfolio/thumbnails/Mimbre.jpg)">
+            <div class="overlay">
+                <div class="project">Mimbre</div>
+                <div class="role">Role: Education Project Manager</div>
+            </div>
+        </li>
+    </ul>
+
+    <h3>Theatre Productions</h3>
+    <ul class="portfolio">
+        <li style="background-image:url(/img/portfolio/thumbnails/Jewish.jpg)">
+            <div class="overlay">
+                <div class="project">Jew(ish) - Theatrical Production</div>
+                <div class="role">Role: Director</div>
+            </div>
+        </li>
+        <li style="background-image:url(/img/portfolio/thumbnails/MyVisit.jpg)">
+            <div class="overlay">
+                <div class="project">My Visit - Contemporary Circus</div>
+                <div class="role">Role: Director</div>
+            </div>
+        </li>
+        <li style="background-image:url(/img/portfolio/thumbnails/GoatJumpedOverTheMoon.jpg)">
+            <div class="overlay">
+                <div class="project">The Goat Jumped Over The Moon</div>
+                <div class="role">Role: Creative Director</div>
+            </div>
+        </li>
+    </ul>
+
+
+
+    <h3>Educational Programmes</h3>
+    <ul class="portfolio">
+        <li style="background-image:url(/img/portfolio/thumbnails/TallStories.jpg); background-size: auto 300px;"">
+            <div class="overlay">
+                <div class="project">Tall Stories</div>
+                <div class="role">Role: Director</div>
+            </div>
+        </li>
+        <li style="background-image:url(/img/portfolio/thumbnails/Rubbish.jpg)">
+            <div class="overlay">
+                <div class="project">Rubbish</div>
+            </div>
+        </li>
+    </ul>
+
+
+
+    <h3>Project Evaluation</h3>
+    <ul class="portfolio">
+        <li style="background-image:url(/img/portfolio/thumbnails/And.jpg)" class="nostretch">
+            <div class="overlay">
+                <div class="project">A.N.D</div>
+            </div>
+        </li>
+        <li style="background-image:url(/img/portfolio/thumbnails/ArtsCouncilEngland.jpg)">
+            <div class="overlay">
+                <div class="project">ArtsCouncilEngland</div>
+                <div class="role">Role: Arts Mark and Arts Mark Gold Assessor</div>
+            </div>
+        </li>
+        <li style="background-image:url(/img/portfolio/thumbnails/ShakespearesGlobe.jpg)">
+            <div class="overlay">
+                <div class="project">Shakespeare's Globe</div>
+            </div>
+        </li>
+    </ul>
+</div>

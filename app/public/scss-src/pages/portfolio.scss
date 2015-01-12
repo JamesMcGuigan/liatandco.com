@@ -1,0 +1,46 @@
+.page_portfolio {
+  h3 {
+    margin-top: 1em;
+  }
+}
+
+
+ul.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    border: 1px solid #000000;
+
+    display: block;
+    width:   300px;
+    height:  300px;
+    margin:  10px;
+    padding: 10px;
+
+    background-position: 50% 50%;
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+
+    &.nostretch {
+      background-size: auto;
+    }
+
+    .overlay {
+      float: left;
+      font-weight: bold;
+      font-size: 20px;
+      color: #000000;
+      background: #ffffff;
+      opacity: 0.8;
+      display: inline-block;
+      padding: 0.25em;
+
+      .role {
+        opacity: 1.2;
+        font-weight: normal;
+        font-size: 90%;
+      }
+    }
+  }
+}
