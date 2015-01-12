@@ -56,11 +56,24 @@ h4 {
 }
 
 p {
-  padding: 1em 0;
+  padding: 0.5em 0;
 }
 
 b, strong {
   font-weight: bold;
+}
+
+blockquote {
+  font-style: italic;
+  padding: 1em 3em;
+  display: block;
+
+  cite {
+    font-style: normal;
+    font-weight: bold;
+    text-indent: 2em;
+    display: block;
+  }
 }
 
 

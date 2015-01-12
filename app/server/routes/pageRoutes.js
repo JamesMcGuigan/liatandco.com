@@ -67,6 +67,11 @@ module.exports = function(app){
         var render = renderParams(request);
         response.render("pages/portfolio", render);
     });
+    app.get("/portfolio/:pageID", function(request, response) {
+        var render = renderParams(request);
+        response.render("portfolio/"+request.params.pageID, render);
+    });
+
     app.get("/contact", function(request, response) {
         var render = renderParams(request);
         response.render("pages/contact", render);
