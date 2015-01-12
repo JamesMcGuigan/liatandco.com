@@ -19,7 +19,8 @@
         window.config = {
             lang: "{{lang}}",
             language: "{{language}}",
-            dir: "{{direction}}",
+            dir:  "{{direction}}",
+            url:  "{{url}}",
             host: "{{config.web.host}}",
             port: "{{config.web.port.http}}"
         };
@@ -29,10 +30,10 @@
     {{> includes/css-includes }}
     {{> includes/js-includes-head }}
 </head>
-<body lang="{{lang}}">
+<body lang="{{lang}}" class="menu_section_{{menu_section}}">
     <div class="container">
         <div class="template-header">
-            <h1 class="floating">Liat & Co</h1>
+            {{> section/header}}
         </div>
 
         <div class="template-content">

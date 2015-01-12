@@ -1,0 +1,29 @@
+@import "variables";
+
+.body-column {
+  max-width: $page-width;
+  margin: auto;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 90px;
+  font-family: lobster,cursive;
+  padding: 20px 0 10px 0;
+  margin:  0;
+}
+h2 {
+  font-size: 48px;
+  font-family: jura,​sans-serif;
+  padding: 10px;
+  margin:  0;
+}
+
+
+
+

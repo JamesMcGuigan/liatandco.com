@@ -3,10 +3,5 @@
     <script src="/bower/nwmatcher/src/nwmatcher.js"></script>
 <![endif]-->
 
-{{^production}}
-<script src="/js/includes.js"></script>
-{{/production}}
-
-
-
-
+<script src="/vendor/firebugx/firebugx.js"></script>
+<script src="/bower/jquery-legacy/jquery.js"></script>

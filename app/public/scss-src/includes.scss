@@ -1,7 +1,11 @@
+//@import "compass/reset";
 @import "compass/css3";
-@import "includes/settings";
+
+@import "includes/variables";
 //@import "../img/sprite/sprite";
 
+@import "includes/fonts";
+@import "includes/layout";
+@import "includes/header";
 @import "includes/ie";
-
 

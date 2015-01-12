@@ -20,13 +20,21 @@ module.exports = function(app){
         var render = {};
         // render.user = request.isAuthenticated() ? request.user : null; // requires passport
 
-        render.text       = require("../views/text/english.js");
-        render.lang       = "en";
-        render.apilang    = "eng";
-        render.language   = "english";
-        render.direction  = "ltr";
-        render.NODE_ENV   = process.env.NODE_ENV;
-        render.production = !!(render.NODE_ENV === "production");
+        render.text         = require("../views/text/english.js");
+        render.lang         = "en";
+        render.apilang      = "eng";
+        render.language     = "english";
+        render.direction    = "ltr";
+        render.url          = request.url;
+        render.NODE_ENV     = process.env.NODE_ENV;
+        render.production   = !!(render.NODE_ENV === "production");
+
+        //render.menu_section_name = request.url.replace(/^\//,'').replace(/\/.*$/,'')
+        //render.menu_section = {
+        //    whatwedo:  menu_section_name === "whatwedo",
+        //    portfolio: menu_section_name === "portfolio",
+        //    connect:   menu_section_name === "connect"
+        //}
 
         render.layout     = "template";
         render.urls       = require("../views/text/urls.js")(request, render);
@@ -49,10 +57,18 @@ module.exports = function(app){
     };
 
     app.get("/", function(request, response) {
+        response.redirect("/whatwedo");
+    });
+    app.get("/whatwedo", function(request, response) {
         var render = renderParams(request);
-        //async.parallel([
-        //], function() {
-        response.render("ngView", render);
-        //});
+        response.render("pages/whatwedo", render);
+    });
+    app.get("/portfolio", function(request, response) {
+        var render = renderParams(request);
+        response.render("pages/portfolio", render);
+    });
+    app.get("/connect", function(request, response) {
+        var render = renderParams(request);
+        response.render("pages/connect", render);
     });
 };
