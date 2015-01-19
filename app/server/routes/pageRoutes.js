@@ -20,7 +20,7 @@ module.exports = function(app){
         var render = {};
         // render.user = request.isAuthenticated() ? request.user : null; // requires passport
 
-        render.text         = require("../views/text/english.js");
+        render.text         = require("../../public/views/text/english.js");
         render.lang         = "en";
         render.apilang      = "eng";
         render.language     = "english";
@@ -37,7 +37,7 @@ module.exports = function(app){
         //}
 
         render.layout     = "template";
-        render.urls       = require("../views/text/urls.js")(request, render);
+        render.urls       = require("../../public/views/text/urls.js")(request, render);
         render.config     = extend({}, config, { sslcert: null, rootCA: null, basicAuth: null, cookieSecret: null, sessionSecret: null });
 
         return render;

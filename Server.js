@@ -64,7 +64,7 @@ app.use(flash());
 
 
 // HTML Rendering Settings
-app.set('views', __dirname + '/app/server/views');
+app.set('views', __dirname + '/app/public/views');
 mmm.setEngine('hogan.js');
 app.set('view engine', 'mmm');
 

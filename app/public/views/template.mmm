@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]>      <html lang="{{lang}}" data-language="{{language}}" dir="{{direction}}" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="{{lang}}" data-language="{{language}}" dir="{{direction}}" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="{{lang}}" data-language="{{language}}" dir="{{direction}}" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="{{lang}}" data-language="{{language}}" dir="{{direction}}" class="no-js"> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <title>Liat & Co</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <meta name="title"         content="Liat & Co"/>
+    <meta name="keywords"      content="Liat & Co"/>
+    <meta name="revisit-after" content="1 week"/>
+
+    <script>
+        window.config = {
+            lang: "{{lang}}",
+            language: "{{language}}",
+            dir:  "{{direction}}",
+            url:  "{{url}}",
+            host: "{{config.web.host}}",
+            port: "{{config.web.port.http}}"
+        };
+    </script>
+
+
+    {{> includes/css-includes }}
+    {{> includes/js-includes-head }}
+</head>
+<body lang="{{lang}}" class="menu_section_{{menu_section}}">
+    <div class="sticky-footer-wrapper">
+        <div class="template-header">
+            {{> section/header}}
+        </div>
+
+        <div class="template-content">
+            {{> content}}
+        </div>
+
+        <div class="sticky-footer-pusher"></div>
+    </div>
+    <div class="template-footer">
+        {{> section/footer}}
+    </div>
+
+
+
+    <div id="javascript-includes">
+        {{> includes/js-includes-foot }}
+        {{> includes/js-init }}
+    </div>
+</body>
+</html>
