@@ -16,24 +16,20 @@ relative_assets = true
 # To disable debugging comments that display the original location of your selectors. Uncomment:
 line_comments = (environment == :production) ? false : true
 
+# https://github.com/postcss/autoprefixer
+require 'autoprefixer-rails'
+on_stylesheet_saved do |file|
+  css = File.read(file)
+  map = file + '.map'
 
-# If you prefer the indented syntax, you might want to regenerate this
-# project again passing --syntax sass, or you can uncomment this:
-# preferred_syntax = :sass
-# and then run:
-# sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
-
-# Compact function pulled from compass
-module Sass::Script::Functions
-  module CustomSassExtensions
-    def concatinate(*args)
-      if args && args.length then
-        return args.join("");
-      else
-        return "";
-      end
-
-    end
+  if File.exists? map
+    result = AutoprefixerRails.process(css,
+                                       from: file,
+        to:   file,
+        map:  { prev: map, inline: false })
+    File.open(file, 'w') { |io| io << result.css }
+    File.open(map,  'w') { |io| io << result.map }
+  else
+    File.open(file, 'w') { |io| io << AutoprefixerRails.process(css) }
   end
-  include CustomSassExtensions
 end
