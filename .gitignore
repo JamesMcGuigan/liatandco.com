@@ -5,6 +5,7 @@ app/public/scss
 production
 vendor/browserify.js
 
+
 # SSL Keys #
 ############
 *.san.crt
@@ -40,6 +41,7 @@ Thumbs.db
 
 # Temp Files #
 ##############
+.dropbox
 *.tmp
 *.temp
 *.swo
