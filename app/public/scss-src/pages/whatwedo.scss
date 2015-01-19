@@ -3,8 +3,14 @@
 
 
   .row_top {
+    position: relative;
     //height: 550px;
     margin-bottom: -40px;
+  }
+  .row_middle {
+    position: relative;
+    padding-top: 2em;
+    margin: auto;
   }
   .row_bottom {
     padding-top: 2em;
@@ -13,25 +19,40 @@
   }
 
 
-  .arrow {
-    width:      275px;
-    height:     175px;
-
-    background: url(/svg/arrow.svg);
-
-    position: absolute;
+  .arrow-curved-right {
     bottom: 0;
+    right:  0;
+  }
+  .arrow-curved-left {
+    bottom: 0;
+    left:   0;
+  }
 
-    &.arrow-left {
-      left: 50%;
-      transform: translate(-353px, 300px) rotate(115deg)
-    }
-    &.arrow-right {
-      right: 50%;
-      transform: translate(353px, 300px) rotate(65deg)
-    }
+  .arrow-curved-right {
+    bottom: 50px;
+    right:  180px;
+  }
+  .arrow-curved-left {
+    bottom: 50px;
+    left:   180px;
   }
 }
+
+.arrow-curved-right,
+.arrow-curved-left {
+  position: absolute;
+  width:  (293px/2);
+  height: (258px/2);
+  background-size: (293px/2) (258px/2);
+  background-color: transparent;
+}
+.arrow-curved-right {
+  background-image: url("/img/pages/arrow-curved-right.jpg");
+}
+.arrow-curved-left {
+  background-image: url("/img/pages/arrow-curved-left.jpg");
+}
+
 
 
 .banner {
@@ -49,13 +70,16 @@
   text-align:  center;
 
   background: url(/svg/banner.svg);
+  z-index: 2;
+  position: relative;
 }
 
 .circle {
   position: relative;
   display: flex;
   background: black;
-  color: #333;
+  color: white;
+
   text-align: center;
 
   border-radius: 50%;
@@ -70,9 +94,10 @@
   }
 
 
-  &.gradient {
-    background-image: radial-gradient(circle farthest-corner at 47px 47px, yellow 0%, orange 100%, red 95%);
-  }
+//  &.gradient {
+//    color: #333;
+//    background-image: radial-gradient(circle farthest-corner at 47px 47px, yellow 0%, orange 100%, red 95%);
+//  }
 
   &.spinning {
     animation-duration: 3s;

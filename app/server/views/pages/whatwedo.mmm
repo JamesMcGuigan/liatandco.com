@@ -4,22 +4,25 @@
     </div>
 
     <div class="row_top">
-        <div class="circle circle-top gradient">
+        <div class="circle circle-top">
             <div class="inner">
                 <p>Widening arts participation...</p>
                 <p>is at the core of what we do.</p>
             </div>
         </div>
-        <!--
-        <div class="arrow arrow-left" ></div>
-        <div class="arrow arrow-right"></div>
-        -->
     </div>
 
+    <div class="row_middle">
+        <div class="banner">
+            How We Do It
+        </div>
+        <div class="arrow-curved-right"></div>
+        <div class="arrow-curved-left"></div>
+    </div>
 
     <div class="grid grid--full row_middle">
         <div class="grid__item one-half">
-            <div class="circle circle-left gradient">
+            <div class="circle circle-left">
                 <div class="inner">
 
                     <h4>Liat & Co presents...</h4>
@@ -31,7 +34,7 @@
             </div>
         </div><!--
         --><div class="grid__item one-half">
-            <div class="circle circle-right gradient">
+            <div class="circle circle-right">
                 <div class="inner">
 
                 <h4>Liat & Co produce...</h4>
@@ -63,6 +66,7 @@
         <div class="banner">
             Q & A Time
         </div>
+        <br/>
 
         <p>Q: So what kind of things have you made happen?</p>
 
