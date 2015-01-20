@@ -2,20 +2,20 @@
 @import "compass/css3";
 
 @import "../../../bower/csswizardry-grids/csswizardry-grids.scss";
-@import "includes/variables";
 //@import "../img/sprite/sprite";
 
-@import "includes/fonts";
-@import "includes/template";
 @import "includes/elements";
+@import "includes/fonts";
+@import "includes/ie";
+@import "includes/template";
+@import "includes/variables";
+@import "pages/contact";
+@import "pages/whatwedo";
+@import "widgets/banner";
+@import "widgets/circle";
 @import "widgets/navmenu";
 @import "widgets/portfolio";
-@import "widgets/circle";
-@import "widgets/banner";
-@import "pages/whatwedo";
-@import "pages/contact";
 
-@import "includes/ie";
 
 
 

@@ -29,11 +29,11 @@
             <div class="project">Unknown</div>
         </div>
     </div></li>
-    <li><div class="background-image" style="background-image:url(/img/portfolio/thumbnails/JW3.jpg)">
+    <li><a href="/portfolio/jw3" class="background-image" style="background-image:url(/img/portfolio/thumbnails/JW3.jpg)">
         <div class="overlay">
             <div class="project">JW3</div>
         </div>
-    </div></li>
+    </a></li>
 </ul>
 
 
@@ -67,33 +67,51 @@
                 <div class="role">Role: Director</div>
             </div>
     </a></li>
-    <li><div class="background-image" style="background-image:url(/img/portfolio/thumbnails/MyVisit.jpg)">
+    <li><a href="/portfolio/my_visit" class="background-image" style="background-image:url(/img/portfolio/thumbnails/MyVisit.jpg)">
         <div class="overlay">
             <div class="project">My Visit - Contemporary Circus</div>
             <div class="role">Role: Director</div>
         </div>
-    </div></li>
-    <li><div class="background-image" style="background-image:url(/img/portfolio/thumbnails/GoatJumpedOverTheMoon.jpg)">
+    </a></li>
+    <li><a href="/portfolio/goat_jumped_over_the_moon" class="background-image" style="background-image:url(/img/portfolio/thumbnails/GoatJumpedOverTheMoon.jpg)">
         <div class="overlay">
             <div class="project">The Goat Jumped Over The Moon</div>
             <div class="role">Role: Creative Director</div>
         </div>
-    </div></li>
+    </a></li>
 </ul>
 
 
 
 <h3>Educational Programmes</h3>
 <ul class="portfolio">
+    <li><a href="/portfolio/lemony_snicket_latke.mmm" class="background-image" style="background-image:url(/img/portfolio/thumbnails/lemony_snicket_latke.jpg)">
+        <div class="overlay">
+            <div class="project">Lemony Snicket Latke Production</div>
+            <div class="role">Educational Resources & Enrichment Programme</div>
+        </div>
+    </a></li>
+
+    <li><a href="/portfolio/rubbish" class="background-image" style="background-image:url(/img/portfolio/thumbnails/Rubbish.jpg)">
+        <div class="overlay">
+            <div class="project">Rubbish</div>
+            <div class="role">Enrichment Producer</div>
+        </div>
+    </a></li>
+
+
+    <li><a href="/portfolio/page_to_stage" class="background-image" style="background-image:url(/img/portfolio/thumbnails/page_to_stage.jpg)">
+        <div class="overlay">
+            <div class="project">Page to Stage</div>
+            <div class="role">Project Director</div>
+        </div>
+    </a></li>
+
+
     <li><div class="background-image" style="background-image:url(/img/portfolio/thumbnails/TallStories.jpg); background-size: auto 300px;"">
         <div class="overlay">
             <div class="project">Tall Stories</div>
             <div class="role">Role: Director</div>
-        </div>
-    </div></li>
-    <li><div class="background-image" style="background-image:url(/img/portfolio/thumbnails/Rubbish.jpg)">
-        <div class="overlay">
-            <div class="project">Rubbish</div>
         </div>
     </div></li>
 </ul>

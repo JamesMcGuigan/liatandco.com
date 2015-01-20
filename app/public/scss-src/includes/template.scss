@@ -45,6 +45,11 @@ html, body {
 }
 .template-content {
   padding-bottom: 3em;
+  background: #EEE;
+
+  .content {
+    background: white;
+  }
 }
 
 .content {
