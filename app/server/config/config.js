@@ -16,7 +16,7 @@ var config = {
     },
 
     web: {
-        host: "https://localhost:4000",
+        host: "https://localhost:3003",
         port: {
             http:  3003,
             https: 3004
@@ -71,7 +71,7 @@ module.exports = {
     }),
     development: extend(true, {}, config, {
         web: {
-            host: "http://localhost:4000",
+            host: "http://localhost:3003",
             port: {
                 http:  3003,
                 https: 3004
