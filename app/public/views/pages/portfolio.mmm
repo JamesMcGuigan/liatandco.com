@@ -25,11 +25,11 @@
             <div class="role">Co-producer: An event exploring mental health, creativity and the arts.</div>
         </div>
     </a></li>
-    <li><div class="background-image" style="background-image:url(/img/portfolio/thumbnails/unknown.jpg)">
+    <li><a href="/portfolio/turnip_prize" class="background-image" style="background-image:url(/img/portfolio/thumbnails/Turnip_Prize.jpg)">
         <div class="overlay">
-            <div class="project">Unknown</div>
+            <div class="project">Turnip Prize</div>
         </div>
-    </div></li>
+    </a></li>
     <li><a href="/portfolio/jw3" class="background-image" style="background-image:url(/img/portfolio/thumbnails/JW3.jpg)">
         <div class="overlay">
             <div class="project">JW3</div>
