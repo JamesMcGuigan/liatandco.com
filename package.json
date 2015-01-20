@@ -42,7 +42,6 @@
   },
   "dependencies": {
     "async": "*",
-    "crypto-browserify": "*",
     "body-parser": "*",
     "compression": "*",
     "connect": "*",
@@ -50,52 +49,39 @@
     "connect-flash": "*",
     "connect-mongo": "*",
     "cookie-parser": "*",
-    "datejs": "*",
+    "crypto-browserify": "*",
+    "email-validator": "*",
     "express": "*",
     "express-error-handler": "*",
     "express-session": "*",
-    "hogan.js": "*",
-    "http-auth": "*",
+    "glob": "*",
+    "markdown": "*",
     "method-override": "*",
-    "github-flavored-markdown": "*",
     "mmm": "*",
     "mongojs": "*",
     "morgan": "*",
     "node-uuid": "*",
     "node.extend": "*",
-    "process": "*",
-    "q": "*",
     "serve-favicon": "*",
     "underscore": "*",
-    "unirest": "*",
-    "jslint": "~0.6.1"
+    "unirest": "*"
   },
   "devDependencies": {
-    "browserify": "*",
-    "jsonlint":  "*",
-    "karma": "*",
-    "mocha": "*",
-    "nodemon": "*",
-    "uglify-js": "*",
-    "yadda": "*",
-    "uglifyjs": "*"
   },
   "browserify": {
     "async":             "*",
-    "github-flavored-markdown": "*",
     "node.extend":       "*"
   },
   "global": {
     "jsonlint":   "*",
-    "browserify": "*"
+    "karma":      "*",
+    "mocha":      "*",
+    "nodemon":    "*",
+    "browserify": "*",
+    "jsonlint":   "*",
+    "browserify": "*",
+    "uglifyjs":   "*"
   },
   "unload": {
-    "mongodb": "1.3.x",
-    "ipfilter": "*",
-    "mongoose": "3.6.x",
-    "mongoose-auto-increment": "2.1.x",
-    "mongoose-concrete-timestamps": "0.1.x",
-    "multi-node": "0.2.x",
-    "jsonpath-rep": "0.0.x"
   }
 }

@@ -1,0 +1,54 @@
+.circle {
+  position: relative;
+  display: flex;
+  background: black;
+  color: white;
+
+  text-align: center;
+
+  border-radius: 50%;
+  margin: auto;
+
+  align-items: center;
+  justify-content: center;
+
+  .inner {
+    flex: 0 0 auto;
+    max-width: 50%;
+  }
+
+
+  //  &.gradient {
+  //    color: #333;
+  //    background-image: radial-gradient(circle farthest-corner at 47px 47px, yellow 0%, orange 100%, red 95%);
+  //  }
+
+  &.spinning {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: spin;
+    animation-timing-function: linear;
+  }
+
+  ul {
+    list-style-type: disc;
+  }
+}
+
+.circle-top {
+  width:  300px;
+  height: 300px;
+  .inner { max-width: 50%; }
+}
+.circle-left {
+  width:  490px;
+  height: 490px;
+  .inner { max-width: 80%; }
+}
+.circle-right {
+  width:  490px;
+  height: 490px;
+  .inner { max-width: 80%; }
+}
+
+

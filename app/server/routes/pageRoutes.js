@@ -1,9 +1,10 @@
 var config    = require('../config/config.js')[process.env.NODE_ENV];
 var _         = require("underscore");
 var async     = require('async');
-var uuid      = require('node-uuid');
-var extend    = require("node.extend");
 var express   = require("express");
+var extend    = require("node.extend");
+var Glob      = require("glob").Glob
+var uuid      = require('node-uuid');
 
 //var fs        = require("fs");
 //var markdown  = require("markdown").markdown;
@@ -59,21 +60,45 @@ module.exports = function(app){
     app.get("/", function(request, response) {
         response.redirect("/whatwedo");
     });
-    app.get("/whatwedo", function(request, response) {
-        var render = renderParams(request);
-        response.render("pages/whatwedo", render);
-    });
-    app.get("/portfolio", function(request, response) {
-        var render = renderParams(request);
-        response.render("pages/portfolio", render);
-    });
+    console.log('app.get("/") -> response.redirect("/whatwedo")');
+
+
+    var pattern = __dirname + "/../../public/views/pages/*.mmm";
+    var globber = new Glob(pattern, {mark: true, sync:true});
+    _(globber.found)
+        .map(function(filepath) {
+            return filepath.replace(/^.*\/([^/]*)\.mmm$/, '$1')
+        })
+        .filter(function(pagename) { return !!pagename; })
+        .forEach(function(pagename) {
+            console.log('app.get("/'+pagename+'")');
+            app.get("/"+pagename, function(request, response) {
+                var render = renderParams(request);
+                render.wrapperClassName = "page_"+pagename;
+
+                response.render("pages/"+pagename, render);
+            });
+        });
+
+
+    //app.get("/whatwedo", function(request, response) {
+    //    var render = renderParams(request);
+    //    response.render("pages/whatwedo", render);
+    //});
+    //app.get("/portfolio", function(request, response) {
+    //    var render = renderParams(request);
+    //    response.render("pages/portfolio", render);
+    //});
+    //app.get("/contact", function(request, response) {
+    //    var render = renderParams(request);
+    //    response.render("pages/contact", render);
+    //});
     app.get("/portfolio/:pageID", function(request, response) {
         var render = renderParams(request);
+        render.wrapperClassName = "page_portfolio_item";
+
         response.render("portfolio/"+request.params.pageID, render);
     });
+    console.log('app.get("/portfolio/:pageID")');
 
-    app.get("/contact", function(request, response) {
-        var render = renderParams(request);
-        response.render("pages/contact", render);
-    });
 };

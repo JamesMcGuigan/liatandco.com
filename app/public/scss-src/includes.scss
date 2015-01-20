@@ -6,11 +6,14 @@
 //@import "../img/sprite/sprite";
 
 @import "includes/fonts";
-@import "includes/layout";
-@import "includes/navmenu";
-@import "includes/sticky-footer";
+@import "includes/template";
+@import "includes/elements";
+@import "widgets/navmenu";
+@import "widgets/portfolio";
+@import "widgets/circle";
+@import "widgets/banner";
 @import "pages/whatwedo";
-@import "pages/portfolio";
+@import "pages/contact";
 
 @import "includes/ie";
 

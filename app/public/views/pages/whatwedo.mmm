@@ -1,90 +1,88 @@
-<div class="page_whatwedo content">
+<div class="banner">
+    What We Do
+</div>
+
+<div class="row_top">
+    <div class="circle circle-top">
+        <div class="inner">
+            <p>Widening arts participation...</p>
+            <p>is at the core of what we do.</p>
+        </div>
+    </div>
+</div>
+
+<div class="row_middle">
     <div class="banner">
-        What We Do
+        How We Do It
     </div>
+    <div class="arrow-curved-right"></div>
+    <div class="arrow-curved-left"></div>
+</div>
 
-    <div class="row_top">
-        <div class="circle circle-top">
+<div class="grid grid--full row_middle">
+    <div class="grid__item one-half">
+        <div class="circle circle-left">
             <div class="inner">
-                <p>Widening arts participation...</p>
-                <p>is at the core of what we do.</p>
+
+                <h4>Liat & Co presents...</h4>
+                <p>We curate & produce original events and commission new work.</p>
+                <p><b>Q:</b> Alrighty. How do you do that?</p>
+                <p><b>A:</b> We dream up big ideas and then work hard to find the right project partners and funders to turn them into reality.</p>
+
+            </div>
+        </div>
+    </div><!--
+    --><div class="grid__item one-half">
+        <div class="circle circle-right">
+            <div class="inner">
+
+            <h4>Liat & Co produce...</h4>
+
+            <p>We work with arts and cultural organisations to deliver your projects and events. We use our know-how to bring your ideas to life.</p>
+
+            <b>We can provide:</b>
+            <ul>
+                <li>Creative content and programming</li>
+                <li>Operational, logistical & technical support</li>
+                <li>Project Management (we like spreadsheets)</li>
+                <li>Marketing stategy and implimentation</li>
+                <li>Event Staffing</li>
+                <li>Evaluation Reporting</li>
+                <li>Artists booking and liason</li>
+            </ul>
+
+            <!--
+            <p><b>Q:</b> So what kind of things have you made happen?</p>
+            <p><b>A:</b> Thanks for asking, please see the portfolio     section for examples of past work.</p>
+            -->
             </div>
         </div>
     </div>
+</div>
 
-    <div class="row_middle">
-        <div class="banner">
-            How We Do It
-        </div>
-        <div class="arrow-curved-right"></div>
-        <div class="arrow-curved-left"></div>
+
+<div class="row_bottom">
+    <div class="banner">
+        Q & A Time
     </div>
+    <br/>
 
-    <div class="grid grid--full row_middle">
-        <div class="grid__item one-half">
-            <div class="circle circle-left">
-                <div class="inner">
+    <p>Q: So what kind of things have you made happen?</p>
 
-                    <h4>Liat & Co presents...</h4>
-                    <p>We curate & produce original events and commission new work.</p>
-                    <p><b>Q:</b> Alrighty. How do you do that?</p>
-                    <p><b>A:</b> We dream up big ideas and then work hard to find the right project partners and funders to turn them into reality.</p>
+    <p>A: Thanks for asking, please see the <a href="/portfolio">portfolio section</a> for examples of past work.</p>
 
-                </div>
-            </div>
-        </div><!--
-        --><div class="grid__item one-half">
-            <div class="circle circle-right">
-                <div class="inner">
+    <hr/>
 
-                <h4>Liat & Co produce...</h4>
+    <p>Q:  So who are you?</p>
 
-                <p>We work with arts and cultural organisations to deliver your projects and events. We use our know-how to bring your ideas to life.</p>
+    <p>A:  To find out more about the talented team simply click           here.</p>
 
-                <b>We can provide:</b>
-                <ul>
-                    <li>Creative content and programming</li>
-                    <li>Operational, logistical & technical support</li>
-                    <li>Project Management (we like spreadsheets)</li>
-                    <li>Marketing stategy and implimentation</li>
-                    <li>Event Staffing</li>
-                    <li>Evaluation Reporting</li>
-                    <li>Artists booking and liason</li>
-                </ul>
+    <hr/>
 
-                <!--
-                <p><b>Q:</b> So what kind of things have you made happen?</p>
-                <p><b>A:</b> Thanks for asking, please see the portfolio     section for examples of past work.</p>
-                -->
-                </div>
-            </div>
-        </div>
-    </div>
+    <p>Q:  Why is the widening of participation in the arts top of           your agenda?</p>
 
-
-    <div class="row_bottom">
-        <div class="banner">
-            Q & A Time
-        </div>
-        <br/>
-
-        <p>Q: So what kind of things have you made happen?</p>
-
-        <p>A: Thanks for asking, please see the <a href="/portfolio">portfolio section</a> for examples of past work.</p>
-
-        <hr/>
-
-        <p>Q:  So who are you?</p>
-
-        <p>A:  To find out more about the talented team simply click           here.</p>
-
-        <hr/>
-
-        <p>Q:  Why is the widening of participation in the arts top of           your agenda?</p>
-
-        <p>A:   We L.O.V.E this question. A proper response is too l            long for Q&A section, please click here to read more.</p>
+    <p>A:   We L.O.V.E this question. A proper response is too l            long for Q&A section, please click here to read more.</p>
 
 
 
-    </div>
 </div>

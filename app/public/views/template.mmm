@@ -37,7 +37,9 @@
         </div>
 
         <div class="template-content">
-            {{> content}}
+            <div class="{{wrapperClassName}} content">
+                {{> content}}
+            </div>
         </div>
 
         <div class="sticky-footer-pusher"></div>

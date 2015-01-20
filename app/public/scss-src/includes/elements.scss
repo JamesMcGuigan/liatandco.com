@@ -1,0 +1,117 @@
+h1 {
+  font-size:   90px;
+  font-family: lobster,cursive;
+  font-weight: bold;
+}
+h2 {
+  font-size: 48px;
+  font-family: jura,​sans-serif;
+}
+h3 {
+  font-size: 30px;
+  font-family: lobster,cursive;;
+}
+h4 {
+  font-size: 30px;
+  font-family: jura,​sans-serif;
+}
+
+h1, h2, h3, h4 {
+  padding: 2em 0 0.75em 0;
+  margin:  0;
+//  white-space: nowrap;
+  text-align: center;
+
+  &.subheading           { padding: 0; margin-top: -1em; }
+  .page_portfolio_item & { text-transform: lowercase; }
+  .page_portfolio_item & { text-transform: capitalize; }
+}
+.page_contact,
+.template-header {
+  h1         { padding: 20px 0 10px 0; }
+  h2, h3, h4 { padding: 10px 0; }
+}
+.template-content { h1, h2, h3, h4 {
+  &:first-child { padding-top: 1em; }
+} }
+
+
+
+.banner {
+  margin-top:    70px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+p {
+  padding: 0.5em 0;
+  padding-left:  3em;
+  padding-right: 3em;
+}
+b, strong {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 4em;
+
+  li { padding: 0.25em; }
+}
+
+
+
+.issuuembed,
+.iframe,
+iframe {
+  display: inline-block;
+  width: 1000px;
+  height: 562px;
+  padding: 1em;
+  margin: auto;
+  border:none;
+
+  &.small {
+    width: (1000px/2);
+    height: (562px/2);
+  }
+
+  &.nopadding {
+    padding: 0;
+  }
+
+  &.soundcloud {
+    height: 166px;
+  }
+}
+
+
+
+blockquote {
+  font-style: italic;
+  padding: 1em 3em;
+  display: block;
+
+  cite {
+    font-style: normal;
+    font-weight: bold;
+    text-indent: 2em;
+    display: block;
+  }
+}
+
+
+
+.relative {
+  position: relative;
+}
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+

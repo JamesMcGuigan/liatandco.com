@@ -1,0 +1,18 @@
+.banner {
+  width:      490px;
+  height:     100px;
+
+  margin:      auto;
+  margin-top:  40px;
+
+  color:       #ffffff;
+  font-family: lobster,cursive;
+
+  padding-top: 15px;
+  font-size:   30px;
+  text-align:  center;
+
+  background: url(/svg/banner.svg);
+  z-index: 2;
+  position: relative;
+}

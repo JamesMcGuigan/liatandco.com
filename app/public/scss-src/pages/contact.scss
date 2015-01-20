@@ -1,0 +1,11 @@
+.page_contact {
+  h1, h2, h3, h4 {
+    text-align: left;
+    &:first-child { padding-top: 0.5em; }
+  }
+  p {
+    text-align: left;
+    padding-left:  0;
+    padding-right: 0;
+  }
+}
