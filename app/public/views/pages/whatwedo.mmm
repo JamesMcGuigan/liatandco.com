@@ -32,6 +32,14 @@
 
             </div>
         </div>
+
+        <div class="banner">
+            Portfolio
+        </div>
+        <p class="center">
+            <a href="/portfolio">Click to see our portfolio of previous work</a>
+        </p>
+
     </div><!--
     --><div class="grid__item one-half">
         <div class="circle circle-right">
@@ -58,6 +66,13 @@
             -->
             </div>
         </div>
+
+        <div class="banner">
+            Get In Touch
+        </div>
+        <p class="center">
+            <a href="/portfolio">Click to see our contact details</a>
+        </p>
     </div>
 </div>
 
