@@ -1,0 +1,12 @@
+<div class="sidemenu">
+    <h4>Portfolio</h4>
+    <ul>
+        <li><b><a href="/contact">Get in touch</a></b></ul>
+    </ul>
+
+    <h4>Festivals, Events and Creative Programming</h4>
+    <ul>
+        <li><a href="/contact">Circus Inspiration Day</a></li>
+        <li><a href="/contact">Little Bookniks</a></li>
+    </ul>
+</div>
