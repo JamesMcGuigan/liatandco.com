@@ -1,39 +1,35 @@
-h1 {
-  font-size:   90px;
-  font-family: lobster,cursive;
-  font-weight: bold;
-}
-h2 {
-  font-size: 48px;
-  font-family: jura,​sans-serif;
-}
-h3 {
-  font-size: 30px;
-  font-family: lobster,cursive;;
-}
-h4 {
-  font-size: 30px;
-  font-family: jura,​sans-serif;
-}
-
 h1, h2, h3, h4 {
-  padding: 2em 0 0.75em 0;
+  padding: 1em 0 0.75em 0;
   margin:  0;
 //  white-space: nowrap;
   text-align: center;
+  font-family: jura,sans-serif;
 
   &.subheading           { padding: 0; margin-top: -1em; }
   .page_portfolio_item & { text-transform: lowercase; }
   .page_portfolio_item & { text-transform: capitalize; }
 }
+h1 {
+  font-size:   90px;
+  font-family: lobster,cursive;
+  font-weight: bold;
+}
+h2 {  font-size: 48px;  }
+h3 {  font-size: 30px;  }
+h4 {  font-size: 30px;  }
+
 .page_contact,
 .template-header {
-  h1         { padding: 20px 0 10px 0; }
+  h1         { padding: 20px 0 10px 0; font-family: lobster,cursive; }
   h2, h3, h4 { padding: 10px 0; }
 }
 .template-content { h1, h2, h3, h4 {
   &:first-child { padding-top: 1em; }
 } }
+.page_portfolio_item { h1, h2, h3, h4 { font-family: jura,sans-serif; }}
+
+
+
 
 
 
