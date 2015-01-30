@@ -37,7 +37,7 @@
             Portfolio
         </div>
         <p class="center">
-            <a href="/portfolio">Click to see our portfolio of previous work</a>
+            <a href="/portfolio">See our portfolio of previous work</a>
         </p>
 
     </div><!--
@@ -71,7 +71,7 @@
             Get In Touch
         </div>
         <p class="center">
-            <a href="/contact">Click to see our contact details</a>
+            <a href="/contact">Contact Us</a>
         </p>
     </div>
 </div>
