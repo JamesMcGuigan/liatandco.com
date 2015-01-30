@@ -4,11 +4,13 @@
 @import "../../../bower/csswizardry-grids/csswizardry-grids.scss";
 //@import "../img/sprite/sprite";
 
+@import "includes/variables";
+
+
 @import "includes/elements";
 @import "includes/fonts";
 @import "includes/ie";
 @import "includes/template";
-@import "includes/variables";
 @import "pages/connect";
 @import "pages/whatwedo";
 @import "widgets/banner";

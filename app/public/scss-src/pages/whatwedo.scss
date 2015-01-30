@@ -38,6 +38,18 @@
     bottom: 50px;
     left:   180px;
   }
+
+
+  @media (max-width: 900px) {
+    .arrow-curved-right,
+    .arrow-curved-left {
+      display: none;
+    }
+    .grid__item.one-half {
+      width: 100%;
+      padding-bottom: 2em;
+    }
+  }
 }
 
 .arrow-curved-right,
@@ -54,3 +66,4 @@
 .arrow-curved-left {
   background-image: url("/img/pages/arrow-curved-left.jpg");
 }
+

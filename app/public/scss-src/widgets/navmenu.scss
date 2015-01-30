@@ -7,6 +7,9 @@ ul.navmenu {
   font-size: 16px;
   padding: 1em;
   margin:  0;
+  background: #000000;
+  .template-footer & { padding-bottom: 0; }
+
 
   li {
     display: inline-block;
@@ -34,6 +37,21 @@ ul.navmenu {
     border-top: 5px solid #FFFFFF;
     a {
       color: #FFFFFF;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  ul.navmenu {
+    flex-direction: column;
+    margin: 0;
+    padding-left:  1em;
+    padding-right: 1em;
+    width: 100%;
+
+    li {
+      margin: 0;
+      width: 100%;
     }
   }
 }

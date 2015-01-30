@@ -28,10 +28,10 @@ html, body {
   min-height: 100%;
   height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
   height: 100%;
-  margin: 0 auto -85px; /* the bottom margin is the negative value of the footer's height */
+  margin: 0 auto -100px; /* the bottom margin is the negative value of the footer's height */
 }
 .template-footer, .sticky-footer-pusher {
-  height: 85px; /* .push must be the same height as .footer */
+  height: 100px; /* .push must be the same height as .footer */
 }
 // http://ryanfait.com/sticky-footer/
 
