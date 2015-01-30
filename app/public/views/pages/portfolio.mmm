@@ -74,9 +74,9 @@
             <div class="role">Role: Director</div>
         </div>
     </a></li>
-    <li><a href="/portfolio/goat_jumped_over_the_moon" class="background-image" style="background-image:url(/img/portfolio/thumbnails/GoatJumpedOverTheMoon.jpg)">
+    <li><a href="/portfolio/in_the_beginning " class="background-image" style="background-image:url(/img/portfolio/thumbnails/in_the_beginning.jpg)">
         <div class="overlay">
-            <div class="project">The Goat Jumped Over The Moon</div>
+            <div class="project">In The Beginning</div>
             <div class="role">Role: Creative Director</div>
         </div>
     </a></li>
