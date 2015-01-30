@@ -9,12 +9,13 @@
   border-radius: 50%;
   margin: auto;
 
+
   align-items: center;
   justify-content: center;
 
   .inner {
     flex: 0 0 auto;
-    max-width: 50%;
+    max-width: 70px;
 
     p {
       padding: 0.5em 0;
@@ -45,19 +46,17 @@
 }
 
 .circle-top {
-  width:  300px;
-  height: 300px;
+  max-width:  300px;
+  min-height: 300px;
   .inner { max-width: 50%; }
+  @media (max-width: 300px) { border-radius: 35%; margin: 0 1em; }
 }
+.circle-right,
 .circle-left {
-  width:  490px;
-  height: 490px;
+  max-width:  490px;
+  min-height: 490px;
   .inner { max-width: 80%; }
-}
-.circle-right {
-  width:  490px;
-  height: 490px;
-  .inner { max-width: 80%; }
-}
 
+  @media (max-width: 490px) { border-radius: 35%; margin: 0 1em; }
+}
 

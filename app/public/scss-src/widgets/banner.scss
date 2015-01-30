@@ -1,5 +1,5 @@
 .banner {
-  width:      490px;
+  max-width:  490px;
   height:     100px;
 
   margin:      auto;
@@ -12,7 +12,17 @@
   font-size:   30px;
   text-align:  center;
 
-  background: url(/svg/banner.svg);
   z-index: 2;
   position: relative;
+
+
+
+
+  overflow-y: hidden ! important;
+  overflow-x: hidden ! important;
+  background-image: url(/svg/banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+;
 }
