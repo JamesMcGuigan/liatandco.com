@@ -3,12 +3,17 @@
     text-align: left;
     &:first-child { padding-top: 0.5em; }
   }
-  p {
-    text-align: left;
-    padding-left:  0;
-    padding-right: 0;
-  }
   &.content {
     padding-bottom: 0;
+
+    p {
+      text-align: left;
+      padding-left:  0;
+      padding-right: 0;
+    }
+
+    img {
+      padding: 50px 100px;
+    }
   }
 }
