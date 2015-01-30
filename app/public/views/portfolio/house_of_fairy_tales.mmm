@@ -1,5 +1,5 @@
 <h1>House of Fairy Tales</h1>
-<h3 class="subheading">Project Manager</h3>
+<h3 class="subheading">Role: Project Manager</h3>
 
 
 <h2>BRIEF:</h2>
@@ -28,12 +28,13 @@
 
 
 <h2>Images</h2>
-<h3>TODO</h3>
 
-
-
-
-
+<ul class="portfolio">
+    <li><div class="background-image nostretch" style="background-image:url(/img/portfolio/house_of_fairy_tales/logo.jpg)"></div></li>
+    <li><div class="background-image nostretch" style="background-image:url(/img/portfolio/house_of_fairy_tales/mime.jpg); "></div></li>
+    <li><div class="background-image nostretch" style="background-image:url(/img/portfolio/house_of_fairy_tales/sitting.jpg)"></div></li>
+    <li class="full-row"><div class="background-image" style="background-image:url(/img/portfolio/house_of_fairy_tales/venue.jpg)"></div></li>
+</ul>
 
 
 
