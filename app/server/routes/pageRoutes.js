@@ -60,6 +60,9 @@ module.exports = function(app){
     app.get("/", function(request, response) {
         response.redirect("/whatwedo");
     });
+    app.get("/contact", function(request, response) {
+        response.redirect("/connect");
+    });
     console.log('app.get("/") -> response.redirect("/whatwedo")');
 
 
@@ -89,9 +92,9 @@ module.exports = function(app){
     //    var render = renderParams(request);
     //    response.render("pages/portfolio", render);
     //});
-    //app.get("/contact", function(request, response) {
+    //app.get("/connect", function(request, response) {
     //    var render = renderParams(request);
-    //    response.render("pages/contact", render);
+    //    response.render("pages/connect", render);
     //});
     app.get("/portfolio/:pageID", function(request, response) {
         var render = renderParams(request);
