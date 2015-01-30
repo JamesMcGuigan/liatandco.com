@@ -16,6 +16,7 @@
 
     img {
       padding: 50px 100px;
+      @media (max-width: 400px) { padding: 50px; }
     }
   }
 
