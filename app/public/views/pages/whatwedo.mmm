@@ -1,3 +1,4 @@
+{{> widgets/cssslider }}
 <br/>
 <h2 class="banner">
     What We Do

@@ -1,7 +1,10 @@
 <!--[if lt IE 9]>
     <script src="/bower/html5shiv/dist/html5shiv.min.js"></script>
     <script src="/bower/nwmatcher/src/nwmatcher.js"></script>
+    <script src="/js/widgets/cssslider-ie.js"></script>
 <![endif]-->
 
 <script src="/vendor/firebugx/firebugx.js"></script>
 <script src="/bower/jquery-legacy/dist/jquery.js"></script>
+
+

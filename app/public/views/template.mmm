@@ -36,6 +36,7 @@
             {{> section/header}}
         </div>
 
+
         <div class="template-content">
             <div class="{{wrapperClassName}} content">
                 {{> content}}

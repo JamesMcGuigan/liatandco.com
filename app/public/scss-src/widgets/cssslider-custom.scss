@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "basiccontrols";
+  src: url("/fonts/cssslider/basiccontrols.eot");
+  src: url("/fonts/cssslider/basiccontrols.eot#iefix") format("embedded-opentype"),
+  url("/fonts/cssslider/basiccontrols.woff") format("woff"),
+  url("/fonts/cssslider/basiccontrols.ttf") format("truetype"),
+  url("/fonts/cssslider/basiccontrols.svg#basic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.csslider1 {
+  *, *:before, *:after {
+    box-sizing: content-box;
+  }
+}
+//
+//.csslider1 > .cs_arrowprev > label,
+//.csslider1 > .cs_arrownext > label {
+//  color: #ffffff;
+//  background: #000000;
+//}
