@@ -11,19 +11,17 @@
 	<input name="cs_anchor1" id='cs_pause1_3' type="radio" class='cs_anchor pause'>
 
 	<ul>
-		<li class='cs_skeleton'><img src='/img/slideshow/JW3.jpg' alt='JW3' title='JW3' /></li>
-		<li class='num0 img slide'><a href="portfolio/jw3"><img src='/img/slideshow/JW3.jpg' alt='JW3' title='JW3' /></a></li>
-		<li class='num1 img slide'><a href="portfolio/turnip_prize"><img src='/img/slideshow/Turnip_Prize.jpg' alt='Turnip Prize' title='Turnip Prize' /></a></li>
-		<li class="num2 img slide"><img src="/img/slideshow/IMG_2720.JPG" style="width: 100%;"></li>
-		<li class='num3 img slide'><img src='/img/slideshow/P1010581.JPG' alt='' title='' /></li>
+        <li class='cs_skeleton'   ><img src='/img/slideshow/Turnip_Prize.jpg' alt='Turnip Prize' title='Turnip Prize' /></li>
+		<li class='num0 img slide'><img src='/img/slideshow/Turnip_Prize.jpg' alt='Turnip Prize' title='Turnip Prize' /></li>
+		<li class="num1 img slide"><img src="/img/slideshow/IMG_2720.JPG" style="width: 100%;"></li>
+		<li class='num2 img slide'><img src='/img/slideshow/P1010581.JPG' alt='' title='' /></li>
+        <li class='num3 img slide'><img src='/img/slideshow/JW3.jpg' alt='JW3' title='JW3' /></li>
 	</ul>
 	<div class='cs_description'>
-		<label class='num0'><span class="cs_title"><span class="cs_wrapper">JW3</span></span></label>
-		<label class='num1'><span class="cs_title"><span class="cs_wrapper">Turnip Prize</span></span></label>
-		<!--
-		<label class='num2'><span class="cs_title"><span class="cs_wrapper"></span></span></label>
-		<label class='num3'><span class="cs_title"><span class="cs_wrapper"></span></span></label>
-		-->
+		<label class='num0'><span class="cs_title"><span class="cs_wrapper">Turnip Prize <cite>photo: Hagai Frid</cite></span></span></label>
+		<!--<label class='num1'><span class="cs_title"><span class="cs_wrapper"></span></span></label>-->
+		<!--<label class='num2'><span class="cs_title"><span class="cs_wrapper"></span></span></label>-->
+        <label class='num3'><span class="cs_title"><span class="cs_wrapper">JW3 <cite>photo: Blake Ezra</cite></span></span></label>
 	</div>
 
 	<div class='cs_bullets'>
