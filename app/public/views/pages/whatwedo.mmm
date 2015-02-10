@@ -34,12 +34,6 @@
             </div>
         </div>
 
-        <div class="banner">
-            Portfolio
-        </div>
-        <p class="center">
-            <a href="/portfolio">See our portfolio of previous work</a>
-        </p>
 
     </div><!--
     --><div class="grid__item one-half">
@@ -67,6 +61,54 @@
             -->
             </div>
         </div>
+
+</div>
+<div class="row">
+    <div class="circle circle-top">
+        <div class="inner">
+            <p>Together, we can take your idea to the next stage of development and enable your work to reach a wider audience. Or just drink tea and eat hobnobs.</p>
+        </div>
+    </div>
+
+    <br/>
+    <div class="banner">
+        What People Say
+    </div>
+
+
+    <blockquote>
+        “Liat was fantastic at juggling competing priorities on A Message to the World and was excellent at communicating clearly to everyone involved.  Best of all, Liat was very organised which was essential on a complex project which involved a large number of schools and teachers.  Liat brought flexibility, insight and efficiency to the project as well as a good oversight of the arts in education.”
+        <cite>Rakhee Jasani - Director, Eastside Educational Trust</cite>
+    </blockquote>
+
+    <blockquote>
+        “Liat is efficient, professional and work with a clear passion for the arts and for the young people! She helped to shift Mimbre's youth programme onto the next level, helped to set up more efficient systems as well as contributing ambitions, visions and exciting cross-artform ideas to our programme.”
+        <cite>Lina Johansson - Artistic Director, Mimbre</cite>
+    </blockquote>
+
+    <blockquote>
+        “Liat collaborated with us to create further engagement around our Show Rubbish. She came up with lots of inspiring ideas and followed them through with an energy, enthusiasm and commitment to the idea of outreach, which we were delighted with.”
+        <cite>Sue Buckmaster - Artistic Director Theatre-Rites</cite>
+    </blockquote>
+
+    <blockquote>
+        “It is safe to say that Liat was instrumental in the success of my show 'Wot? No Fish!!' in its RnD stage. She helped me to try the show out in schools and community settings. She is well organised, a good communicator with a range of people and knowledgable and enthusiastic about the arts.”
+        <cite>Danny Braverman - Creator of critically acclaimed performance 'Wot? No Fish!!'</cite>
+    </blockquote>
+
+</div>
+<div class="grid grid--full row_middle">
+    <div class="grid__item one-half">
+
+        <div class="banner">
+            Portfolio
+        </div>
+        <p class="center">
+            <a href="/portfolio">See our portfolio of previous work</a>
+        </p>
+
+    </div><!--
+    --><div class="grid__item one-half">
 
         <div class="banner">
             Get In Touch

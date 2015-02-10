@@ -330,7 +330,7 @@
   display: inline-block;
   opacity: 0;
   z-index: 1;
-  
+
   -webkit-transition:
     opacity 2000ms ease,
     -webkit-transform 24000ms cubic-bezier(0.840, 0.970, 0.855, 1.000);
@@ -343,34 +343,34 @@
 .csslider1 > ul > .slide.num0 {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
-  
+
       -webkit-transform-origin: 100% 0;
       transform-origin: 100% 0;
-  
+
 }
 .csslider1 > ul > .slide.num1 {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
-  
+
       -webkit-transform-origin: 0 0;
       transform-origin: 0 0;
-      
+
 }
 .csslider1 > ul > .slide.num2 {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
-  
+
       -webkit-transform-origin: 100% 100%;
       transform-origin: 100% 100%;
-      
+
 }
 .csslider1 > ul > .slide.num3 {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
-  
+
       -webkit-transform-origin: 0 100%;
       transform-origin: 0 100%;
-      
+
 }
 
 
@@ -536,7 +536,7 @@
 
 .csslider1 > #cs_play1:checked ~ ul > .slide,
 .csslider1 > .pause:checked ~ ul > .slide {
-  
+
   -webkit-transition: none;
   transition: none;
 }
@@ -788,14 +788,14 @@ _:-ms-input-placeholder, :root .csslider1 > .cs_play_pause > label span:after {
 .csslider1 > .cs_bullets > label > .cs_thumb:before {
   content: '';
   position: absolute;
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   left: 50%;
   margin-left: -4px;
   bottom: -9px;
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
-  
+
   border-top: 7px solid #CBECFD;
 }
 //.csslider1 > .cs_bullets > play > .cs_thumb {
