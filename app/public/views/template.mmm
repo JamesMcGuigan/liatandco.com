@@ -12,8 +12,9 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
 
     <meta name="title"         content="Liat & Co"/>
-    <meta name="keywords"      content="Liat & Co"/>
+    <meta name="keywords"      content="Liat & Co, Liat Rosenthal, creativity, production company, curating, events, communities, participation, arts."/>
     <meta name="revisit-after" content="1 week"/>
+    <meta name="author" content="Liat Rosenthal, James McGuigan">
 
     <script>
         window.config = {
