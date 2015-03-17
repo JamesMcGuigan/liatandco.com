@@ -6,7 +6,7 @@ A conduit for your creativity, featuring Liat Rosenthal.
 A London based creative production company. We specialise in curating 'n' producing events that connect communities and widen participation in the arts.
 
 + [http://www.liatandco.com](http://www.liatandco.com)
-+ [http://www.liatrosenthal.com/](http://www.liatrosenthal.com/)
++ [http://www.liatrosenthal.com](http://www.liatrosenthal.com)
 
 
 
