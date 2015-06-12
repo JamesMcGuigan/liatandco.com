@@ -1,0 +1,387 @@
+/* line 1, ../../scss-src/includes/elements.scss */
+#casper h1, #casper h2, #casper h3, #casper h4,
+#casper_navigation h1,
+#casper_navigation h2,
+#casper_navigation h3,
+#casper_navigation h4,
+#casper_header h1,
+#casper_header h2,
+#casper_header h3,
+#casper_header h4,
+#casper_body h1,
+#casper_body h2,
+#casper_body h3,
+#casper_body h4,
+#casper_footer h1,
+#casper_footer h2,
+#casper_footer h3,
+#casper_footer h4 {
+  padding: 1em 0 0.75em 0;
+  margin: 0;
+  text-align: center;
+  font-family: jura,sans-serif;
+}
+/* line 8, ../../scss-src/includes/elements.scss */
+#casper h1.subheading, #casper h2.subheading, #casper h3.subheading, #casper h4.subheading,
+#casper_navigation h1.subheading,
+#casper_navigation h2.subheading,
+#casper_navigation h3.subheading,
+#casper_navigation h4.subheading,
+#casper_header h1.subheading,
+#casper_header h2.subheading,
+#casper_header h3.subheading,
+#casper_header h4.subheading,
+#casper_body h1.subheading,
+#casper_body h2.subheading,
+#casper_body h3.subheading,
+#casper_body h4.subheading,
+#casper_footer h1.subheading,
+#casper_footer h2.subheading,
+#casper_footer h3.subheading,
+#casper_footer h4.subheading {
+  padding: 0;
+  margin-top: -1em;
+}
+/* line 9, ../../scss-src/includes/elements.scss */
+.page_portfolio_item #casper h1, .page_portfolio_item #casper h2, .page_portfolio_item #casper h3, .page_portfolio_item #casper h4, .page_portfolio_item
+#casper_navigation h1, .page_portfolio_item
+#casper_navigation h2, .page_portfolio_item
+#casper_navigation h3, .page_portfolio_item
+#casper_navigation h4, .page_portfolio_item
+#casper_header h1, .page_portfolio_item
+#casper_header h2, .page_portfolio_item
+#casper_header h3, .page_portfolio_item
+#casper_header h4, .page_portfolio_item
+#casper_body h1, .page_portfolio_item
+#casper_body h2, .page_portfolio_item
+#casper_body h3, .page_portfolio_item
+#casper_body h4, .page_portfolio_item
+#casper_footer h1, .page_portfolio_item
+#casper_footer h2, .page_portfolio_item
+#casper_footer h3, .page_portfolio_item
+#casper_footer h4 {
+  text-transform: lowercase;
+}
+/* line 10, ../../scss-src/includes/elements.scss */
+.page_portfolio_item #casper h1, .page_portfolio_item #casper h2, .page_portfolio_item #casper h3, .page_portfolio_item #casper h4, .page_portfolio_item
+#casper_navigation h1, .page_portfolio_item
+#casper_navigation h2, .page_portfolio_item
+#casper_navigation h3, .page_portfolio_item
+#casper_navigation h4, .page_portfolio_item
+#casper_header h1, .page_portfolio_item
+#casper_header h2, .page_portfolio_item
+#casper_header h3, .page_portfolio_item
+#casper_header h4, .page_portfolio_item
+#casper_body h1, .page_portfolio_item
+#casper_body h2, .page_portfolio_item
+#casper_body h3, .page_portfolio_item
+#casper_body h4, .page_portfolio_item
+#casper_footer h1, .page_portfolio_item
+#casper_footer h2, .page_portfolio_item
+#casper_footer h3, .page_portfolio_item
+#casper_footer h4 {
+  text-transform: capitalize;
+}
+/* line 12, ../../scss-src/includes/elements.scss */
+#casper h1,
+#casper_navigation h1,
+#casper_header h1,
+#casper_body h1,
+#casper_footer h1 {
+  font-size: 90px;
+  font-family: lobster,cursive;
+  font-weight: bold;
+}
+/* line 17, ../../scss-src/includes/elements.scss */
+#casper h2,
+#casper_navigation h2,
+#casper_header h2,
+#casper_body h2,
+#casper_footer h2 {
+  font-size: 48px;
+}
+/* line 18, ../../scss-src/includes/elements.scss */
+#casper h3,
+#casper_navigation h3,
+#casper_header h3,
+#casper_body h3,
+#casper_footer h3 {
+  font-size: 30px;
+}
+/* line 19, ../../scss-src/includes/elements.scss */
+#casper h4,
+#casper_navigation h4,
+#casper_header h4,
+#casper_body h4,
+#casper_footer h4 {
+  font-size: 30px;
+}
+/* line 23, ../../scss-src/includes/elements.scss */
+#casper .page_connect h1,
+#casper .template-header h1,
+#casper_navigation .page_connect h1,
+#casper_navigation .template-header h1,
+#casper_header .page_connect h1,
+#casper_header .template-header h1,
+#casper_body .page_connect h1,
+#casper_body .template-header h1,
+#casper_footer .page_connect h1,
+#casper_footer .template-header h1 {
+  padding: 20px 0 10px 0;
+  font-family: lobster,cursive;
+}
+/* line 24, ../../scss-src/includes/elements.scss */
+#casper .page_connect h2, #casper .page_connect h3, #casper .page_connect h4,
+#casper .template-header h2,
+#casper .template-header h3,
+#casper .template-header h4,
+#casper_navigation .page_connect h2,
+#casper_navigation .page_connect h3,
+#casper_navigation .page_connect h4,
+#casper_navigation .template-header h2,
+#casper_navigation .template-header h3,
+#casper_navigation .template-header h4,
+#casper_header .page_connect h2,
+#casper_header .page_connect h3,
+#casper_header .page_connect h4,
+#casper_header .template-header h2,
+#casper_header .template-header h3,
+#casper_header .template-header h4,
+#casper_body .page_connect h2,
+#casper_body .page_connect h3,
+#casper_body .page_connect h4,
+#casper_body .template-header h2,
+#casper_body .template-header h3,
+#casper_body .template-header h4,
+#casper_footer .page_connect h2,
+#casper_footer .page_connect h3,
+#casper_footer .page_connect h4,
+#casper_footer .template-header h2,
+#casper_footer .template-header h3,
+#casper_footer .template-header h4 {
+  padding: 10px 0;
+}
+/* line 27, ../../scss-src/includes/elements.scss */
+#casper .template-content h1:first-child, #casper .template-content h2:first-child, #casper .template-content h3:first-child, #casper .template-content h4:first-child,
+#casper_navigation .template-content h1:first-child,
+#casper_navigation .template-content h2:first-child,
+#casper_navigation .template-content h3:first-child,
+#casper_navigation .template-content h4:first-child,
+#casper_header .template-content h1:first-child,
+#casper_header .template-content h2:first-child,
+#casper_header .template-content h3:first-child,
+#casper_header .template-content h4:first-child,
+#casper_body .template-content h1:first-child,
+#casper_body .template-content h2:first-child,
+#casper_body .template-content h3:first-child,
+#casper_body .template-content h4:first-child,
+#casper_footer .template-content h1:first-child,
+#casper_footer .template-content h2:first-child,
+#casper_footer .template-content h3:first-child,
+#casper_footer .template-content h4:first-child {
+  padding-top: 1em;
+}
+/* line 29, ../../scss-src/includes/elements.scss */
+#casper .page_portfolio_item h1, #casper .page_portfolio_item h2, #casper .page_portfolio_item h3, #casper .page_portfolio_item h4,
+#casper_navigation .page_portfolio_item h1,
+#casper_navigation .page_portfolio_item h2,
+#casper_navigation .page_portfolio_item h3,
+#casper_navigation .page_portfolio_item h4,
+#casper_header .page_portfolio_item h1,
+#casper_header .page_portfolio_item h2,
+#casper_header .page_portfolio_item h3,
+#casper_header .page_portfolio_item h4,
+#casper_body .page_portfolio_item h1,
+#casper_body .page_portfolio_item h2,
+#casper_body .page_portfolio_item h3,
+#casper_body .page_portfolio_item h4,
+#casper_footer .page_portfolio_item h1,
+#casper_footer .page_portfolio_item h2,
+#casper_footer .page_portfolio_item h3,
+#casper_footer .page_portfolio_item h4 {
+  font-family: jura,sans-serif;
+}
+/* line 32, ../../scss-src/includes/elements.scss */
+#casper .banner,
+#casper_navigation .banner,
+#casper_header .banner,
+#casper_body .banner,
+#casper_footer .banner {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+/* line 37, ../../scss-src/includes/elements.scss */
+#casper p,
+#casper_navigation p,
+#casper_header p,
+#casper_body p,
+#casper_footer p {
+  padding: 0.5em 0;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+/* line 42, ../../scss-src/includes/elements.scss */
+#casper b, #casper strong,
+#casper_navigation b,
+#casper_navigation strong,
+#casper_header b,
+#casper_header strong,
+#casper_body b,
+#casper_body strong,
+#casper_footer b,
+#casper_footer strong {
+  font-weight: bold;
+}
+/* line 46, ../../scss-src/includes/elements.scss */
+#casper ul,
+#casper_navigation ul,
+#casper_header ul,
+#casper_body ul,
+#casper_footer ul {
+  list-style-type: disc;
+  margin-left: 4em;
+}
+/* line 50, ../../scss-src/includes/elements.scss */
+#casper ul li,
+#casper_navigation ul li,
+#casper_header ul li,
+#casper_body ul li,
+#casper_footer ul li {
+  padding: 0.25em;
+}
+/* line 55, ../../scss-src/includes/elements.scss */
+#casper .issuuembed,
+#casper .iframe,
+#casper iframe,
+#casper_navigation .issuuembed,
+#casper_navigation .iframe,
+#casper_navigation iframe,
+#casper_header .issuuembed,
+#casper_header .iframe,
+#casper_header iframe,
+#casper_body .issuuembed,
+#casper_body .iframe,
+#casper_body iframe,
+#casper_footer .issuuembed,
+#casper_footer .iframe,
+#casper_footer iframe {
+  display: block;
+  width: 1000px;
+  height: 562px;
+  padding: 1em;
+  margin: auto;
+  border: none;
+}
+/* line 65, ../../scss-src/includes/elements.scss */
+#casper .issuuembed.small,
+#casper .iframe.small,
+#casper iframe.small,
+#casper_navigation .issuuembed.small,
+#casper_navigation .iframe.small,
+#casper_navigation iframe.small,
+#casper_header .issuuembed.small,
+#casper_header .iframe.small,
+#casper_header iframe.small,
+#casper_body .issuuembed.small,
+#casper_body .iframe.small,
+#casper_body iframe.small,
+#casper_footer .issuuembed.small,
+#casper_footer .iframe.small,
+#casper_footer iframe.small {
+  width: 500px;
+  height: 281px;
+}
+/* line 70, ../../scss-src/includes/elements.scss */
+#casper .issuuembed.nopadding,
+#casper .iframe.nopadding,
+#casper iframe.nopadding,
+#casper_navigation .issuuembed.nopadding,
+#casper_navigation .iframe.nopadding,
+#casper_navigation iframe.nopadding,
+#casper_header .issuuembed.nopadding,
+#casper_header .iframe.nopadding,
+#casper_header iframe.nopadding,
+#casper_body .issuuembed.nopadding,
+#casper_body .iframe.nopadding,
+#casper_body iframe.nopadding,
+#casper_footer .issuuembed.nopadding,
+#casper_footer .iframe.nopadding,
+#casper_footer iframe.nopadding {
+  padding: 0;
+}
+/* line 74, ../../scss-src/includes/elements.scss */
+#casper .issuuembed.soundcloud,
+#casper .iframe.soundcloud,
+#casper iframe.soundcloud,
+#casper_navigation .issuuembed.soundcloud,
+#casper_navigation .iframe.soundcloud,
+#casper_navigation iframe.soundcloud,
+#casper_header .issuuembed.soundcloud,
+#casper_header .iframe.soundcloud,
+#casper_header iframe.soundcloud,
+#casper_body .issuuembed.soundcloud,
+#casper_body .iframe.soundcloud,
+#casper_body iframe.soundcloud,
+#casper_footer .issuuembed.soundcloud,
+#casper_footer .iframe.soundcloud,
+#casper_footer iframe.soundcloud {
+  height: 166px;
+}
+/* line 78, ../../scss-src/includes/elements.scss */
+#casper img.iframe,
+#casper_navigation img.iframe,
+#casper_header img.iframe,
+#casper_body img.iframe,
+#casper_footer img.iframe {
+  height: auto;
+}
+/* line 84, ../../scss-src/includes/elements.scss */
+#casper blockquote,
+#casper_navigation blockquote,
+#casper_header blockquote,
+#casper_body blockquote,
+#casper_footer blockquote {
+  font-style: italic;
+  padding: 1em 3em;
+  display: block;
+}
+/* line 89, ../../scss-src/includes/elements.scss */
+#casper blockquote cite,
+#casper_navigation blockquote cite,
+#casper_header blockquote cite,
+#casper_body blockquote cite,
+#casper_footer blockquote cite {
+  font-style: normal;
+  font-weight: bold;
+  text-indent: 2em;
+  display: block;
+}
+/* line 97, ../../scss-src/includes/elements.scss */
+#casper hr,
+#casper_navigation hr,
+#casper_header hr,
+#casper_body hr,
+#casper_footer hr {
+  border: none;
+  border-top: 1px solid grey;
+  text-align: center;
+  margin: 1em 2em;
+  display: block;
+}
+/* line 106, ../../scss-src/includes/elements.scss */
+#casper .relative,
+#casper_navigation .relative,
+#casper_header .relative,
+#casper_body .relative,
+#casper_footer .relative {
+  position: relative;
+}
+/* line 109, ../../scss-src/includes/elements.scss */
+#casper .center,
+#casper_navigation .center,
+#casper_header .center,
+#casper_body .center,
+#casper_footer .center {
+  margin: auto;
+  text-align: center;
+}

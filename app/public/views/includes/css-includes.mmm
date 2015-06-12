@@ -1,14 +1,9 @@
 {{#production}}
 <link rel="stylesheet" href="/production/css/includes.css" />
 {{/production}}
+
 {{^production}}
 <!--<link rel="stylesheet" href="/scss/vendor.css" />-->
 <link rel="stylesheet" href="/scss/includes.css" />
 <link rel="stylesheet" href="/img/sprite/sprite.css" />
 {{/production}}
-
-
-
-
-	<link rel="stylesheet" href="delete_files/csss_engine1//style.css">
-	<!--[if IE]><link rel="stylesheet" href="delete_files/csss_engine1//ie.css"><![endif]-->

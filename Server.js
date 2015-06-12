@@ -24,6 +24,7 @@ var mmm            = require('mmm');
 var morgan         = require('morgan');
 var path           = require('path');
 var session        = require('express-session');
+var ghost          = require('ghost');
 
 var MongoStore     = require('connect-mongo')(session);
 
@@ -105,3 +106,12 @@ module.exports = app;
 
 
 
+//***** Ghost Config *****//
+// @doc https://github.com/TryGhost/Ghost/wiki/Using-Ghost-as-an-npm-module
+ghost({
+    config: path.join(__dirname, 'ghost', 'ghost-config.js')
+}).then( function(ghostServer) {
+    app.use(ghostServer.config.paths.subdir, ghostServer.rootApp);
+    //ghostServer.set('view engine', 'mmm');
+    ghostServer.start(app);
+});

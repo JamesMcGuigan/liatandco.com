@@ -37,26 +37,9 @@ html, body {
 
 
 
-.template-footer,
-.template-header {
-  background: black;
-  color: white;
-  text-align: center;
-}
-.template-content {
-  padding-bottom: 3em;
-  background: #EEE;
-
-  .content {
-    background: white;
-    padding-bottom: 2em;
-  }
-}
 
 .content {
   max-width: $page-width;
   margin: auto;
   position: relative;
 }
-
-

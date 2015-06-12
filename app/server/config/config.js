@@ -79,7 +79,7 @@ module.exports = {
         }
     }),
     staging: extend(true, {}, config, {
-        db: 'mongodb://staging.liatandco.jamesmcguigan.com/liatandco',
+        db: 'mongodb://localhost/liatandco',
         web: {
             host: "http://staging.liatandco.jamesmcguigan.com",
             port: {
@@ -89,9 +89,9 @@ module.exports = {
         }
     }),
     production:  extend(true, {}, config, {
-        db: 'mongodb://liatandco.jamesmcguigan.com/liatandco',
+        db: 'mongodb://localhost/liatandco',
         web: {
-            host: "http://liatandco.jamesmcguigan.com",
+            host: "http://liatandco.com",
             port: {
                 http:  3003,
                 https: 3004

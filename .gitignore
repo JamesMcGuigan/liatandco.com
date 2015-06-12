@@ -55,3 +55,10 @@ Thumbs.db
 pids
 *.pid
 *.seed
+
+
+# Ghost #
+#########
+ghost/themes/liatandco/partials/views
+ghost/data/*.db
+ghost-github/
