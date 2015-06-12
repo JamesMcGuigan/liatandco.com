@@ -26,7 +26,7 @@
     "lint":               "npm run jsonlint; npm run jslint;",
     "jsonlint":           "find -E ./ -name '*.json' -not -regex '.*/(bower|node_modules|vendor)/.*' -print -exec jsonlint -q {} \\;",
     "jslint":             "./jslint-all.sh ./app/",
-    
+
     "compile":            "npm run copy_ghost_views; npm run browserify && npm run autosprite",
     "compass":            "compass compile --force",
     "compass_watch":      "compass watch",
