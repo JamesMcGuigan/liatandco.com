@@ -26,7 +26,7 @@ var path           = require('path');
 var session        = require('express-session');
 var ghost          = require('ghost');
 
-var MongoStore     = require('connect-mongo')(session);
+//var MongoStore     = require('connect-mongo')(session);
 
 var app = express();
 var access_log_stream = fs.createWriteStream(config.access_log, {flags: 'a'});
@@ -74,11 +74,10 @@ app.set('view engine', 'mmm');
 app.use(           express.static(__dirname + '/app/public'));
 app.use('/bower',  express.static(__dirname + '/bower'));
 app.use('/vendor', express.static(__dirname + '/vendor'));
-app.use(connectDomain()); // allow express to output propper stack traces
+app.use(connectDomain()); // allow express to output proper stack traces
 
 require('./app/server/routes/ajaxRoutes.js')(app);
 require('./app/server/routes/pageRoutes.js')(app);
-//require('./app/server/routes/CrudAPIRoutes.js')(app);
 //require('./app/server/routes/errorRoutes.js')(app);
 
 
@@ -96,20 +95,24 @@ process.on('uncaughtException', function (err) {
 });
 
 
-//// Allow Ghost to start our webapp for us - no https mode
-//var servers = [];
-//if( config.web.port.https ) { servers.push( https.createServer(config.sslcert, app).listen(config.web.port.https) ); }
-//if( config.web.port.http  ) { servers.push( http.createServer(app).listen(config.web.port.http) );  }
+var useGhost = false;
+if( useGhost === false ) {
+    // Allow Ghost to start our webapp for us - no https mode
+    var servers = [];
+    if( config.web.port.http  ) { servers.push( http.createServer(app).listen(config.web.port.http) );  }
+    //if( config.web.port.https ) { servers.push( https.createServer(config.sslcert, app).listen(config.web.port.https) ); }
 
-//***** Ghost Config *****//
-// @doc https://github.com/TryGhost/Ghost/wiki/Using-Ghost-as-an-npm-module
-ghost({
-    config: path.join(__dirname, 'ghost', 'ghost-config.js')
-}).then( function(ghostServer) {
-    app.use(ghostServer.config.paths.subdir, ghostServer.rootApp);
-    ghostServer.start(app);
 
     console.info(config.name, ' - listening on ports ', JSON.stringify(config.web.port), config.web.host, " | NODE_ENV: ", process.env.NODE_ENV );
-});
-
+} else {
+    //***** Ghost Config *****//
+    // BUG: Silently crashes node when trying to access /blog on hosted webserver
+    // @doc https://github.com/TryGhost/Ghost/wiki/Using-Ghost-as-an-npm-module
+    ghost({
+        config: path.join(__dirname, 'ghost', 'ghost-config.js')
+    }).then( function(ghostServer) {
+        app.use(ghostServer.config.paths.subdir, ghostServer.rootApp);
+        ghostServer.start(app);
+    });
+}
 module.exports = app;
