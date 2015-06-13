@@ -78,7 +78,7 @@ app.use(connectDomain()); // allow express to output propper stack traces
 
 require('./app/server/routes/ajaxRoutes.js')(app);
 require('./app/server/routes/pageRoutes.js')(app);
-require('./app/server/routes/CrudAPIRoutes.js')(app);
+//require('./app/server/routes/CrudAPIRoutes.js')(app);
 //require('./app/server/routes/errorRoutes.js')(app);
 
 
@@ -96,22 +96,20 @@ process.on('uncaughtException', function (err) {
 });
 
 
-var servers = [];
+//// Allow Ghost to start our webapp for us - no https mode
+//var servers = [];
 //if( config.web.port.https ) { servers.push( https.createServer(config.sslcert, app).listen(config.web.port.https) ); }
-if( config.web.port.http  ) { servers.push( http.createServer(app).listen(config.web.port.http) );  }
+//if( config.web.port.http  ) { servers.push( http.createServer(app).listen(config.web.port.http) );  }
 
-console.info(config.name, ' - listening on ports ', JSON.stringify(config.web.port), config.web.host, " | NODE_ENV: ", process.env.NODE_ENV );
+//***** Ghost Config *****//
+// @doc https://github.com/TryGhost/Ghost/wiki/Using-Ghost-as-an-npm-module
+ghost({
+    config: path.join(__dirname, 'ghost', 'ghost-config.js')
+}).then( function(ghostServer) {
+    app.use(ghostServer.config.paths.subdir, ghostServer.rootApp);
+    ghostServer.start(app);
+
+    console.info(config.name, ' - listening on ports ', JSON.stringify(config.web.port), config.web.host, " | NODE_ENV: ", process.env.NODE_ENV );
+});
 
 module.exports = app;
-
-
-
-////***** Ghost Config *****//
-//// @doc https://github.com/TryGhost/Ghost/wiki/Using-Ghost-as-an-npm-module
-//ghost({
-//    config: path.join(__dirname, 'ghost', 'ghost-config.js')
-//}).then( function(ghostServer) {
-//    app.use(ghostServer.config.paths.subdir, ghostServer.rootApp);
-//    //ghostServer.set('view engine', 'mmm');
-//    //ghostServer.start(app);
-//});

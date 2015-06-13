@@ -19,7 +19,7 @@ var config = {
         host: "https://localhost:3003",
         port: {
             http:  3003,
-            https: 3004
+            //https: 3004
         }
     },
 
@@ -65,7 +65,7 @@ module.exports = {
             host: "http://localhost:4400",
             port: {
                 http:  3303,
-                https: 3303
+                //https: 3303
             }
         }
     }),
@@ -74,7 +74,7 @@ module.exports = {
             host: "http://localhost:3003",
             port: {
                 http:  3003,
-                https: 3004
+                //https: 3004
             }
         }
     }),
@@ -84,7 +84,7 @@ module.exports = {
             host: "http://staging.liatandco.jamesmcguigan.com",
             port: {
                 http:  3003,
-                https: 3004
+                //https: 3004
             }
         }
     }),
@@ -94,7 +94,7 @@ module.exports = {
             host: "http://liatandco.com",
             port: {
                 http:  3003,
-                https: 3004
+                //https: 3004
             }
         }
     })
@@ -107,9 +107,9 @@ if( process.env.PORT_HTTP || process.env.PORT_HTTPS ) {
             module.exports[key].web.host = module.exports[key].web.host.replace(':'+module.exports[key].web.port.http, ':'+process.env.PORT_HTTP);
             module.exports[key].web.port.http = process.env.PORT_HTTP;
         }
-        if( process.env.PORT_HTTPS ) {
-            module.exports[key].web.host = module.exports[key].web.host.replace(':'+module.exports[key].web.port.https, ':'+process.env.PORT_HTTPS);
-            module.exports[key].web.port.https = process.env.PORT_HTTPS;
-        }
+        //if( process.env.PORT_HTTPS ) {
+        //    module.exports[key].web.host = module.exports[key].web.host.replace(':'+module.exports[key].web.port.https, ':'+process.env.PORT_HTTPS);
+        //    module.exports[key].web.port.https = process.env.PORT_HTTPS;
+        //}
     }
 }
