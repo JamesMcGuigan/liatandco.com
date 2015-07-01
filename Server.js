@@ -95,7 +95,7 @@ process.on('uncaughtException', function (err) {
 });
 
 
-var useGhost = false;
+var useGhost = true;
 if( useGhost === false ) {
     // Allow Ghost to start our webapp for us - no https mode
     var servers = [];
