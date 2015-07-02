@@ -35,9 +35,9 @@
     "autosprite_refresh": "./app/public/img/sprite/scripts/autosprite.sh --refresh && compass compile",
     "compile":            "npm run browserify && npm run autosprite",
     "browserify":         "node compile_browserify.js",
-    "copy_ghost_views":   "rm -rvf ghost/themes/liatandco/partials/views; cp -rvf app/public/views ghost/themes/liatandco/partials/",
+    "copy_ghost_views":   "rm -rvf ghost/themes/liatandco/partials/views; cp -rvf app/public/views ghost/themes/liatandco/partials/; ",
 
-    "production":         "npm run copy_ghost_views; ./compile_production.sh",
+    "production":         "./compile_production.sh; npm run copy_ghost_views;",
     "production_css":     "compass compile -e production --force",
 
     "code_dependancies":  "./compile_npm_dependencies.sh"
@@ -58,6 +58,7 @@
     "express-session": "*",
     "ghost": "^0.6.4",
     "glob": "*",
+    "http-proxy": "*",
     "markdown": "*",
     "method-override": "*",
     "mmm": "*",

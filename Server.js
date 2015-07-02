@@ -8,6 +8,7 @@ process.env.NODE_ENV = process.env.NODE_ENV || "development";
 var config         = require('./app/server/config/config.js')[process.env.NODE_ENV];
 var _              = require("underscore");
 var express        = require('express');
+var proxy          = require('http-proxy').createProxyServer();
 var bodyParser     = require('body-parser');
 var compression    = require('compression');
 var errorHandler   = require('express-error-handler');
@@ -69,8 +70,8 @@ app.set('views', __dirname + '/app/public/views');
 mmm.setEngine('hogan.js');
 app.set('view engine', 'mmm');
 
-
 // Page Routes and Includes
+app.use("/blog", function(req, res) { proxy.web(req, res, { target: 'http://localhost:2002/blog' }); }); // duplicated in nginx conf
 app.use(           express.static(__dirname + '/app/public'));
 app.use('/bower',  express.static(__dirname + '/bower'));
 app.use('/vendor', express.static(__dirname + '/vendor'));
