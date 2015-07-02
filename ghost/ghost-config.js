@@ -12,12 +12,12 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url:  parentAppConfig.web.host + '/blog',
+        url:  "http://liatandco.com/blog/",
         mail: {},
         database: {
             client: 'sqlite3',
             connection: {
-                filename: path.join(__dirname, '/data/ghost.db')
+                filename: '/var/data/liatandco-ghost.db'
             },
             debug: false
         },
@@ -26,7 +26,7 @@ config = {
             // Host to be passed to node's `net.Server#listen()`
             host: '127.0.0.1',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
-            port: parentAppConfig.web.port.http
+            port: '2002'
         },
         paths: {
             contentPath: path.join(__dirname),
@@ -38,7 +38,7 @@ config = {
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
         // Change this to your Ghost blogs published URL.
-        url: parentAppConfig.web.host + '/blog',
+        url: "http://localhost:2002/blog",
 
         // Example mail config
         // Visit http://support.ghost.org/mail for instructions
@@ -66,7 +66,7 @@ config = {
             // Host to be passed to node's `net.Server#listen()`
             host: '127.0.0.1',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
-            port: parentAppConfig.web.port.http
+            port: '2002'
         },
         paths: {
             contentPath: path.join(__dirname),

@@ -9,7 +9,7 @@ parentApp.use('/bower',  express.static(__dirname + '/../bower/'));
 parentApp.use('/vendor', express.static(__dirname + '/../vendor/'));
 
 ghost({
-    config: path.join(__dirname, 'ghost-config-standalone.js')
+    config: path.join(__dirname, 'ghost-config.js')
 }).then(function (ghostServer) {
     parentApp.use(ghostServer.config.paths.subdir, ghostServer.rootApp);
     ghostServer.start(parentApp);
