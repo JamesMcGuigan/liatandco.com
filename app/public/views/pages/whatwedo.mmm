@@ -1,5 +1,28 @@
 {{> widgets/cssslider }}
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<div class="grid grid--full">
+    <div class="grid__item one-half">
+        <div class="circle circle-medium">
+            <div class="inner">
+                <h4>2015: Highlights</h4>
+                <p>Find out about Tate's Turbine Festival, Arcola at Glastonbury Festival, Jerusalem Season of Culture.</p>
+            </div>
+        </div>
+    </div><!--
+    --><div class="grid__item one-half">
+        <div class="circle circle-medium">
+            <div class="inner">
+                <h4>2016: Coming Up</h4>
+                <p>Join us for The House of Schmutter Festival and Bubble Schmeisis</p>
+            </div>
+        </div>
+</div>
+
 <h2 class="banner">
     What We Do
 </h2>
@@ -64,7 +87,7 @@
 
 </div>
 <div class="row">
-    <div class="circle circle-top">
+    <div class="circle circle-medium">
         <div class="inner">
             <p>Together, we can take your idea or project to the next stage of its development and enable your work to reach a wider audience. Or just drink tea and eat hobnobs.</p>
         </div>
