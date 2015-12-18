@@ -12,7 +12,7 @@
     <li><a href="/portfolio/jerusalem_season_of_culture" class="background-image" style="background-image:url(/img/portfolio/thumbnails/jerusalem_season_of_culture.jpg);">
         <div class="overlay">
             <div class="project">Jerusalem Season of Culture</div>
-            <!--<div class="role"></div>-->
+            <div class="role">Role: Researcher</div>
         </div>
     </a></li>
     <li><a href="/portfolio/arcola_theatre_at_shangri_la" class="background-image" style="background-image:url(/img/portfolio/thumbnails/arcola_theatre_at_shangri_la.jpg); background-size: 300px 200px;">

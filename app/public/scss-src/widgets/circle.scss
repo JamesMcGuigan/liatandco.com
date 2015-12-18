@@ -54,10 +54,10 @@
 }
 
 .circle-medium {
-  max-width:  350px;
-  min-height: 350px;
+  max-width:  375px;
+  min-height: 375px;
   .inner { max-width: 80%; }
-  @media (max-width: 350px) { border-radius: 35%; margin: 0 1em; }
+  @media (max-width: 375px) { border-radius: 35%; margin: 0 1em; }
 }
 .circle-top {
   max-width:  300px;

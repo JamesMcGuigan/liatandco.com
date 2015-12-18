@@ -1,6 +1,7 @@
 @import "../includes/variables";
 
-ul.portfolio {
+ul.portfolio,
+ul.portfolio.portfolio-3col {
   text-align: center;
   padding: 0 20px;
   margin:  auto;
@@ -70,6 +71,13 @@ ul.portfolio.portfolio-2col {
     width:  460px;
     height: 460px;
     background-size: 460px 460px;
+  }
+}
+ul.portfolio.portfolio-1col {
+  .background-image {
+    width:  960px;
+    height: 960px;
+    background-size: 960px 960px;
   }
 }
 
