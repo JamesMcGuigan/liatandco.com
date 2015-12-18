@@ -47,12 +47,6 @@
             <div class="role">Role: Project Director</div>
         </div>
     </a></li>
-    <li><a href="/portfolio/beyond_the_couch" class="background-image" style="background-image:url(/img/portfolio/thumbnails/beyond.jpg); background-size: 300px 150px;">
-        <div class="overlay">
-            <div class="project">Beyond the Couch</div>
-            <div class="role">Co-producer: An event exploring mental health, creativity and the arts.</div>
-        </div>
-    </a></li>
     <li><a href="/portfolio/turnip_prize" class="background-image" style="background-image:url(/img/portfolio/thumbnails/Turnip_Prize.jpg)">
         <div class="overlay">
             <div class="project">Turnip Prize</div>
