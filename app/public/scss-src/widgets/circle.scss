@@ -43,6 +43,14 @@
   ul {
     list-style-type: disc;
   }
+
+  a {
+    &, &:active, &:visited {
+      font-weight: bold;
+      color: white;
+      line-height: 1.25em;
+    }
+  }
 }
 
 .circle-medium {

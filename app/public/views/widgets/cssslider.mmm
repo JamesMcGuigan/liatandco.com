@@ -15,7 +15,7 @@
 		<li class='num0 img slide'><img src='/img/slideshow/2015-12/House-of-Schmutter.jpg' alt='House of Schmutter Festival' title='House of Schmutter Festival' /></li>
 		<li class="num1 img slide"><img src="/img/slideshow/2015-12/Jerusalem-Season-of-Culture.jpg" alt="Jerusalem Season of Culture" title="Jerusalem Season of Culture" style="width: 100%;"></li>
 		<li class='num2 img slide'><img src='/img/slideshow/2015-12/ShangriLa-GlastonburyFestival2014-CSM04.jpg'  alt='Arcola Theatre at Shangri-La, Glastonbury' title='Arcola Theatre at Shangri-La, Glastonbury'/></li>
-        <li class='num3 img slide'><img src='/img/slideshow/2015-12/TurbineFest_010_cDianaAgunbiade-Kolawole.jpg' alt='Turbine Festival - Tate Modern' title='Turbine Festival - Tate Modern'/></li>
+        <li class='num3 img slide'><a href="/portfolio/turbine_festival"><img src='/img/slideshow/2015-12/TurbineFest_010_cDianaAgunbiade-Kolawole.jpg' alt='Turbine Festival - Tate Modern' title='Turbine Festival - Tate Modern'/></a></li>
 	</ul>
 	<div class='cs_description'>
 	    <label class='num0'><span class="cs_title"><span class="cs_wrapper">House of Schmutter Festival <cite>Rich Mix</cite></span></span></label>

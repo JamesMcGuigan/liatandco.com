@@ -10,7 +10,7 @@
         <div class="circle circle-medium">
             <div class="inner">
                 <h4>2015: Highlights</h4>
-                <p>Find out about Tate's Turbine Festival, Arcola at Glastonbury Festival, Jerusalem Season of Culture.</p>
+                <p>Find out about <a href="http://localhost:3003/portfolio/turbine_festival">Tate's Turbine Festival</a>, Arcola at Glastonbury Festival, Jerusalem Season of Culture.</p>
             </div>
         </div>
     </div><!--

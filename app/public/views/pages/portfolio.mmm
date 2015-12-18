@@ -3,6 +3,32 @@
 <p class="center">Click items for more details</p><br/>
 
 <ul class="portfolio">
+    <li><a href="/portfolio/turbine_festival" class="background-image" style="background-image:url(/img/portfolio/thumbnails/turbine_festival.jpg);">
+        <div class="overlay">
+            <div class="project">Turbine Festival, Tate Modern</div>
+            <div class="role">Project Manager</div>
+        </div>
+    </a></li>
+    <li><a href="/portfolio/jerusalem_season_of_culture" class="background-image" style="background-image:url(/img/portfolio/thumbnails/jerusalem_season_of_culture.jpg);">
+        <div class="overlay">
+            <div class="project">Jerusalem Season of Culture</div>
+            <!--<div class="role"></div>-->
+        </div>
+    </a></li>
+    <li><a href="/portfolio/arcola_theatre_at_shangri_la" class="background-image" style="background-image:url(/img/portfolio/thumbnails/arcola_theatre_at_shangri_la.jpg); background-size: 300px 200px;">
+        <div class="overlay">
+            <div class="project">Glastonbury Festival: Arcola Theatre at Shangri-La</div>
+            <!--<div class="role"></div>-->
+        </div>
+    </a></li>
+    <li><a href="/portfolio/beyond_the_couch" class="background-image" style="background-image:url(/img/portfolio/thumbnails/beyond.jpg); background-size: 300px 150px;">
+        <div class="overlay">
+            <div class="project">Beyond the Couch</div>
+            <div class="role">Co-producer: An event exploring mental health, creativity and the arts.</div>
+        </div>
+    </a></li>
+
+
     <li><a href="/portfolio/action_for_childrens_arts" class="background-image" style="background-image:url(/img/portfolio/thumbnails/action_for_childrens_art.jpg);">
         <div class="overlay">
             <div class="project">Action for Children's Arts</div>
