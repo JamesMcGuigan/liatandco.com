@@ -18,7 +18,7 @@
     <li><a href="/portfolio/arcola_theatre_at_shangri_la" class="background-image" style="background-image:url(/img/portfolio/thumbnails/arcola_theatre_at_shangri_la.jpg); background-size: 300px 200px;">
         <div class="overlay">
             <div class="project">Glastonbury Festival: Arcola Theatre at Shangri-La</div>
-            <!--<div class="role"></div>-->
+            <div class="role">Role: Arts Coordinator</div>
         </div>
     </a></li>
     <li><a href="/portfolio/beyond_the_couch" class="background-image" style="background-image:url(/img/portfolio/thumbnails/beyond.jpg); background-size: 300px 150px;">
