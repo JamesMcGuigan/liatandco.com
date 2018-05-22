@@ -2,6 +2,8 @@
   "name": "Liat-and-Co",
   "version": "1.1.0",
   "engine": "node 0.10.39",
+  "engine_notes_1": "Ghost ^0.6.4 requires node 0.10.39 - does not support yarn",
+  "engine_notes_2": "BUGFIX: https://github.com/tj/n/pull/470 - node 0.10.39 | Remove existing npm folder before copying activated version",
   "private": true,
   "repository": {
     "type": "git",
@@ -14,6 +16,7 @@
     }
   ],
   "scripts": {
+    "preinstall":         "rm -rf /usr/local/lib/node_modules/npm /usr/local/bin/node; n 0.10.39;",
     "install":            "bower install --allow-root; npm run browserify",
     "install_globals":    "node -p -e \"require('underscore').keys(require('./package.json').globals).join(' ')\" | xargs sudo npm install -g ",
 
@@ -33,7 +36,6 @@
     "compass_watch":      "compass watch",
     "autosprite":         "./app/public/img/sprite/scripts/autosprite.sh           && compass compile --force",
     "autosprite_refresh": "./app/public/img/sprite/scripts/autosprite.sh --refresh && compass compile",
-    "compile":            "npm run browserify && npm run autosprite",
     "browserify":         "node compile_browserify.js",
     "copy_ghost_views":   "rm -rvf ghost/themes/liatandco/partials/views; cp -rvf app/public/views ghost/themes/liatandco/partials/; ",
 
@@ -78,11 +80,9 @@
   },
   "global": {
     "n":          "*",
-    "jsonlint":   "*",
     "karma":      "*",
     "mocha":      "*",
     "nodemon":    "*",
-    "browserify": "*",
     "jsonlint":   "*",
     "browserify": "*",
     "uglifyjs":   "*"

@@ -18,6 +18,7 @@ FOR JAMIE
 # Development Files #
 #####################
 node_modules
+node_modules.bak
 bower
 *.iml
 .sass-cache
