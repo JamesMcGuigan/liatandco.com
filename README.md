@@ -81,5 +81,3 @@ Project Layout
 - [/app/server/views/](https://github.com/JamesMcGuigan/liatandco.com/tree/master/app/server/views/) - Mustache templates for generating initial HTML page
 - [/app/public/scss-src/](https://github.com/JamesMcGuigan/liatandco.com/tree/master/app/public/scss-src/) - SASS source files
 - [/app/public/scss/](https://github.com/JamesMcGuigan/liatandco.com/tree/master/app/public/scss/) - Compiled SASS -> CSS
-- [/app/public/html/](https://github.com/JamesMcGuigan/liatandco.com/tree/master/app/public/html/) - Angualar HTML Snippits
-- [/app/public/angular/](https://github.com/JamesMcGuigan/liatandco.com/tree/master/app/public/angular/) - Angualar.js Application
